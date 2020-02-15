@@ -4,10 +4,12 @@ class Sphere : public Object3D{
 
 public:
 
+	Vector3D center;
+	float radius = 1;
+	
 	Sphere();
 	Sphere(float radius_);
 	Sphere(Vector3D center_, float radius_);
-	
-	float center = Vector3D(0,0,0);
-	float radius = 1;
+	bool ray_intersects(Vector3D from, Vector3D to);
+
 };

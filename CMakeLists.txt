@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 # Our project name
 project (framework)
 
-add_executable(framework main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp  )
+add_executable(framework main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp )
 
 
 # For finding our SDL2 package!

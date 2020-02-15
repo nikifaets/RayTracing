@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nikifaets/code/RayTracing/MainWindow.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/MainWindow.cpp.o"
   "/home/nikifaets/code/RayTracing/Matrix3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/Matrix3D.cpp.o"
   "/home/nikifaets/code/RayTracing/Object3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/Object3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/Sphere.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/Sphere.cpp.o"
   "/home/nikifaets/code/RayTracing/Vector3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/Vector3D.cpp.o"
   "/home/nikifaets/code/RayTracing/main.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir/main.cpp.o"
   )

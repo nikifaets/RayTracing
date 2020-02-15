@@ -74,6 +74,12 @@ CMakeFiles/framework.dir/Object3D.cpp.o: ../Object3D.cpp
 CMakeFiles/framework.dir/Object3D.cpp.o: ../Object3D.h
 CMakeFiles/framework.dir/Object3D.cpp.o: ../Vector3D.h
 
+CMakeFiles/framework.dir/Sphere.cpp.o: ../Matrix3D.h
+CMakeFiles/framework.dir/Sphere.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/Sphere.cpp.o: ../Sphere.cpp
+CMakeFiles/framework.dir/Sphere.cpp.o: ../Sphere.h
+CMakeFiles/framework.dir/Sphere.cpp.o: ../Vector3D.h
+
 CMakeFiles/framework.dir/Vector3D.cpp.o: ../Vector3D.cpp
 CMakeFiles/framework.dir/Vector3D.cpp.o: ../Vector3D.h
 

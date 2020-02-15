@@ -74,6 +74,12 @@ CMakeFiles/framework.dir/Object3D.cpp.o
  /home/nikifaets/code/RayTracing/Object3D.cpp
  /home/nikifaets/code/RayTracing/Object3D.h
  /home/nikifaets/code/RayTracing/Vector3D.h
+CMakeFiles/framework.dir/Sphere.cpp.o
+ /home/nikifaets/code/RayTracing/Matrix3D.h
+ /home/nikifaets/code/RayTracing/Object3D.h
+ /home/nikifaets/code/RayTracing/Sphere.cpp
+ /home/nikifaets/code/RayTracing/Sphere.h
+ /home/nikifaets/code/RayTracing/Vector3D.h
 CMakeFiles/framework.dir/Vector3D.cpp.o
  /home/nikifaets/code/RayTracing/Vector3D.cpp
  /home/nikifaets/code/RayTracing/Vector3D.h

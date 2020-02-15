@@ -258,6 +258,33 @@ Object3D.cpp.s:
 	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Object3D.cpp.s
 .PHONY : Object3D.cpp.s
 
+Sphere.o: Sphere.cpp.o
+
+.PHONY : Sphere.o
+
+# target to build an object file
+Sphere.cpp.o:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.o
+.PHONY : Sphere.cpp.o
+
+Sphere.i: Sphere.cpp.i
+
+.PHONY : Sphere.i
+
+# target to preprocess a source file
+Sphere.cpp.i:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.i
+.PHONY : Sphere.cpp.i
+
+Sphere.s: Sphere.cpp.s
+
+.PHONY : Sphere.s
+
+# target to generate assembly for a file
+Sphere.cpp.s:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.s
+.PHONY : Sphere.cpp.s
+
 Vector3D.o: Vector3D.cpp.o
 
 .PHONY : Vector3D.o
@@ -336,6 +363,9 @@ help:
 	@echo "... Object3D.o"
 	@echo "... Object3D.i"
 	@echo "... Object3D.s"
+	@echo "... Sphere.o"
+	@echo "... Sphere.i"
+	@echo "... Sphere.s"
 	@echo "... Vector3D.o"
 	@echo "... Vector3D.i"
 	@echo "... Vector3D.s"

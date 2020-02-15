@@ -6,13 +6,28 @@ class Vector3D{
 
 public:
 
-	Vector3D();
-	Vector3D(float x_, float y_, float z_);
 	float x;
 	float y;
 	float z;
 
+	Vector3D();
+	Vector3D(float x_, float y_, float z_);
+
+
 	void operator = (const Vector3D& arg);
+
+	Vector3D operator - (const Vector3D& arg);
+
+	Vector3D operator + (const Vector3D& arg);
+	
+	Vector3D scale (const float arg);
+
+	bool operator == (const Vector3D& arg);
+	
+	float dot(const Vector3D& arg);
+
+	float distance_to(const Vector3D& arg);
 };	
+
 
 #endif

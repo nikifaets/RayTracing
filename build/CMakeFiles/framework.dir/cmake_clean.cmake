@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/framework.dir/MainWindow.cpp.o"
   "CMakeFiles/framework.dir/Matrix3D.cpp.o"
   "CMakeFiles/framework.dir/Object3D.cpp.o"
+  "CMakeFiles/framework.dir/Sphere.cpp.o"
   "CMakeFiles/framework.dir/Vector3D.cpp.o"
   "CMakeFiles/framework.dir/main.cpp.o"
   "framework"
