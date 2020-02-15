@@ -34,6 +34,8 @@ Vector3D Vector3D::scale(const float arg){
 	float x = this->x * arg;
 	float y = this->y * arg;
 	float z = this->z * arg;
+
+	return Vector3D(x,y,z);
 }
 
 bool Vector3D::operator == (const Vector3D& arg){

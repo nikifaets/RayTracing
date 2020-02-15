@@ -1,3 +1,3 @@
 /home/nikifaets/code/RayTracing/build/CMakeFiles/rebuild_cache.dir
-/home/nikifaets/code/RayTracing/build/CMakeFiles/framework.dir
+/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir
 /home/nikifaets/code/RayTracing/build/CMakeFiles/edit_cache.dir

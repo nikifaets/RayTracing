@@ -5,8 +5,9 @@
 #include "Camera.h"
 
 class MainWindow{
+
 public:
-    // Contructor which initialize the parameters.
+
     MainWindow(int height_, int width_);
 
     ~MainWindow();
@@ -16,9 +17,6 @@ public:
   	void set_camera(Camera *camera_);
 
   	void render_display();
-
-
-
 
 private:
 

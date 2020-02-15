@@ -5,9 +5,9 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 # Our project name
-project (framework)
+project (raytracer)
 
-add_executable(framework main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp )
+add_executable(raytracer main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp )
 
 
 # For finding our SDL2 package!
@@ -24,5 +24,5 @@ find_library(SDL2_LIBRARIES NAME SDL2)
 INCLUDE_DIRECTORIES(${SDL2_INCLUDE_DIRS})
 
 # Linking SDL2 library with our project.
-target_link_libraries(framework ${SDL2_LIBRARIES})
+target_link_libraries(raytracer ${SDL2_LIBRARIES})
 

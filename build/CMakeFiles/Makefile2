@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/nikifaets/code/RayTracing/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/framework.dir/all
+all: CMakeFiles/raytracer.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/framework.dir/clean
+clean: CMakeFiles/raytracer.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/framework.dir
+# Target rules for target CMakeFiles/raytracer.dir
 
 # All Build rule for target.
-CMakeFiles/framework.dir/all:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/depend
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target framework"
-.PHONY : CMakeFiles/framework.dir/all
+CMakeFiles/raytracer.dir/all:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/depend
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target raytracer"
+.PHONY : CMakeFiles/raytracer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/framework.dir/rule: cmake_check_build_system
+CMakeFiles/raytracer.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikifaets/code/RayTracing/build/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/framework.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/raytracer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikifaets/code/RayTracing/build/CMakeFiles 0
-.PHONY : CMakeFiles/framework.dir/rule
+.PHONY : CMakeFiles/raytracer.dir/rule
 
 # Convenience name for target.
-framework: CMakeFiles/framework.dir/rule
+raytracer: CMakeFiles/raytracer.dir/rule
 
-.PHONY : framework
+.PHONY : raytracer
 
 # clean rule for target.
-CMakeFiles/framework.dir/clean:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/clean
-.PHONY : CMakeFiles/framework.dir/clean
+CMakeFiles/raytracer.dir/clean:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/clean
+.PHONY : CMakeFiles/raytracer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

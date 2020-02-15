@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named framework
+# Target rules for targets named raytracer
 
 # Build rule for target.
-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 framework
-.PHONY : framework
+raytracer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 raytracer
+.PHONY : raytracer
 
 # fast build rule for target.
-framework/fast:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/build
-.PHONY : framework/fast
+raytracer/fast:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/build
+.PHONY : raytracer/fast
 
 Camera.o: Camera.cpp.o
 
@@ -129,7 +129,7 @@ Camera.o: Camera.cpp.o
 
 # target to build an object file
 Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Camera.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.o
 .PHONY : Camera.cpp.o
 
 Camera.i: Camera.cpp.i
@@ -138,7 +138,7 @@ Camera.i: Camera.cpp.i
 
 # target to preprocess a source file
 Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Camera.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.i
 .PHONY : Camera.cpp.i
 
 Camera.s: Camera.cpp.s
@@ -147,7 +147,7 @@ Camera.s: Camera.cpp.s
 
 # target to generate assembly for a file
 Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Camera.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
 Cube.o: Cube.cpp.o
@@ -156,7 +156,7 @@ Cube.o: Cube.cpp.o
 
 # target to build an object file
 Cube.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Cube.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.o
 .PHONY : Cube.cpp.o
 
 Cube.i: Cube.cpp.i
@@ -165,7 +165,7 @@ Cube.i: Cube.cpp.i
 
 # target to preprocess a source file
 Cube.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Cube.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.i
 .PHONY : Cube.cpp.i
 
 Cube.s: Cube.cpp.s
@@ -174,7 +174,7 @@ Cube.s: Cube.cpp.s
 
 # target to generate assembly for a file
 Cube.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Cube.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.s
 .PHONY : Cube.cpp.s
 
 MainWindow.o: MainWindow.cpp.o
@@ -183,7 +183,7 @@ MainWindow.o: MainWindow.cpp.o
 
 # target to build an object file
 MainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/MainWindow.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.o
 .PHONY : MainWindow.cpp.o
 
 MainWindow.i: MainWindow.cpp.i
@@ -192,7 +192,7 @@ MainWindow.i: MainWindow.cpp.i
 
 # target to preprocess a source file
 MainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/MainWindow.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.i
 .PHONY : MainWindow.cpp.i
 
 MainWindow.s: MainWindow.cpp.s
@@ -201,7 +201,7 @@ MainWindow.s: MainWindow.cpp.s
 
 # target to generate assembly for a file
 MainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/MainWindow.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
 
 Matrix3D.o: Matrix3D.cpp.o
@@ -210,7 +210,7 @@ Matrix3D.o: Matrix3D.cpp.o
 
 # target to build an object file
 Matrix3D.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.o
 .PHONY : Matrix3D.cpp.o
 
 Matrix3D.i: Matrix3D.cpp.i
@@ -219,7 +219,7 @@ Matrix3D.i: Matrix3D.cpp.i
 
 # target to preprocess a source file
 Matrix3D.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.i
 .PHONY : Matrix3D.cpp.i
 
 Matrix3D.s: Matrix3D.cpp.s
@@ -228,7 +228,7 @@ Matrix3D.s: Matrix3D.cpp.s
 
 # target to generate assembly for a file
 Matrix3D.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.s
 .PHONY : Matrix3D.cpp.s
 
 Object3D.o: Object3D.cpp.o
@@ -237,7 +237,7 @@ Object3D.o: Object3D.cpp.o
 
 # target to build an object file
 Object3D.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Object3D.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.o
 .PHONY : Object3D.cpp.o
 
 Object3D.i: Object3D.cpp.i
@@ -246,7 +246,7 @@ Object3D.i: Object3D.cpp.i
 
 # target to preprocess a source file
 Object3D.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Object3D.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.i
 .PHONY : Object3D.cpp.i
 
 Object3D.s: Object3D.cpp.s
@@ -255,7 +255,7 @@ Object3D.s: Object3D.cpp.s
 
 # target to generate assembly for a file
 Object3D.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Object3D.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.s
 .PHONY : Object3D.cpp.s
 
 Sphere.o: Sphere.cpp.o
@@ -264,7 +264,7 @@ Sphere.o: Sphere.cpp.o
 
 # target to build an object file
 Sphere.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.o
 .PHONY : Sphere.cpp.o
 
 Sphere.i: Sphere.cpp.i
@@ -273,7 +273,7 @@ Sphere.i: Sphere.cpp.i
 
 # target to preprocess a source file
 Sphere.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.i
 .PHONY : Sphere.cpp.i
 
 Sphere.s: Sphere.cpp.s
@@ -282,7 +282,7 @@ Sphere.s: Sphere.cpp.s
 
 # target to generate assembly for a file
 Sphere.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Sphere.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.s
 .PHONY : Sphere.cpp.s
 
 Vector3D.o: Vector3D.cpp.o
@@ -291,7 +291,7 @@ Vector3D.o: Vector3D.cpp.o
 
 # target to build an object file
 Vector3D.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.o
 .PHONY : Vector3D.cpp.o
 
 Vector3D.i: Vector3D.cpp.i
@@ -300,7 +300,7 @@ Vector3D.i: Vector3D.cpp.i
 
 # target to preprocess a source file
 Vector3D.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.i
 .PHONY : Vector3D.cpp.i
 
 Vector3D.s: Vector3D.cpp.s
@@ -309,7 +309,7 @@ Vector3D.s: Vector3D.cpp.s
 
 # target to generate assembly for a file
 Vector3D.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.s
 .PHONY : Vector3D.cpp.s
 
 main.o: main.cpp.o
@@ -318,7 +318,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -327,7 +327,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -336,7 +336,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -346,7 +346,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... framework"
+	@echo "... raytracer"
 	@echo "... edit_cache"
 	@echo "... Camera.o"
 	@echo "... Camera.i"

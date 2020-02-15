@@ -9,11 +9,15 @@ class Object3D{
 
 public:
 
-	Object3D();
-	std::string obj_type = "Undefined";
-
-	bool intersects_ray(float direction);
-	void set_type(std::string new_type);
+	Vector3D translation;
 	Matrix3D basis;
+	std::string obj_type = "Undefined";
+	Vector3D color;
+
+	Object3D();
+
+	virtual bool intersects_ray(Vector3D& from, Vector3D& to);
+	void set_type(std::string new_type);
 };
+
 #endif

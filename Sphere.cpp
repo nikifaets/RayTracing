@@ -1,5 +1,6 @@
 #include "Sphere.h"
 #include <string>
+#include <iostream>
 Sphere::Sphere() : radius(1), center(Vector3D(0,0,0)){
 
 	obj_type = "Sphere";
@@ -15,7 +16,7 @@ Sphere::Sphere(Vector3D center_, float radius_) : center(center_), radius(radius
 	obj_type = "Sphere";
 }
 
-bool Sphere::ray_intersects(Vector3D from, Vector3D to){
+bool Sphere::intersects_ray(Vector3D& from, Vector3D& to){
 
 	//ray: from + t*direction; t = - (from * direction - center*direction) / direction^2 
 
