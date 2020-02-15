@@ -6,12 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/home/nikifaets/code/RayTracing/Camera.cpp
+Camera.h
+/home/nikifaets/code/RayTracing/Camera.h
+iostream
+-
+
 /home/nikifaets/code/RayTracing/Camera.h
 Object3D.h
 /home/nikifaets/code/RayTracing/Object3D.h
 vector
 -
 array
+-
+
+/home/nikifaets/code/RayTracing/Cube.cpp
+Cube.h
+/home/nikifaets/code/RayTracing/Cube.h
+
+/home/nikifaets/code/RayTracing/Cube.h
+Object3D.h
+/home/nikifaets/code/RayTracing/Object3D.h
+string
 -
 
 /home/nikifaets/code/RayTracing/MainWindow.cpp
@@ -26,9 +42,43 @@ SDL.h
 Camera.h
 /home/nikifaets/code/RayTracing/Camera.h
 
+/home/nikifaets/code/RayTracing/Matrix3D.cpp
+Matrix3D.h
+/home/nikifaets/code/RayTracing/Matrix3D.h
+
+/home/nikifaets/code/RayTracing/Matrix3D.h
+vector
+-
+Vector3D.h
+/home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/Object3D.cpp
+Object3D.h
+/home/nikifaets/code/RayTracing/Object3D.h
+
 /home/nikifaets/code/RayTracing/Object3D.h
 string
 -
+Matrix3D.h
+/home/nikifaets/code/RayTracing/Matrix3D.h
+Vector3D.h
+/home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/Vector3D.cpp
+Vector3D.h
+/home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/main.cpp
+Cube.h
+/home/nikifaets/code/RayTracing/Cube.h
+iostream
+-
+MainWindow.h
+/home/nikifaets/code/RayTracing/MainWindow.h
+Camera.h
+/home/nikifaets/code/RayTracing/Camera.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

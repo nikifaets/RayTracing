@@ -204,6 +204,33 @@ MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
 
+Matrix3D.o: Matrix3D.cpp.o
+
+.PHONY : Matrix3D.o
+
+# target to build an object file
+Matrix3D.cpp.o:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.o
+.PHONY : Matrix3D.cpp.o
+
+Matrix3D.i: Matrix3D.cpp.i
+
+.PHONY : Matrix3D.i
+
+# target to preprocess a source file
+Matrix3D.cpp.i:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.i
+.PHONY : Matrix3D.cpp.i
+
+Matrix3D.s: Matrix3D.cpp.s
+
+.PHONY : Matrix3D.s
+
+# target to generate assembly for a file
+Matrix3D.cpp.s:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Matrix3D.cpp.s
+.PHONY : Matrix3D.cpp.s
+
 Object3D.o: Object3D.cpp.o
 
 .PHONY : Object3D.o
@@ -230,6 +257,33 @@ Object3D.s: Object3D.cpp.s
 Object3D.cpp.s:
 	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Object3D.cpp.s
 .PHONY : Object3D.cpp.s
+
+Vector3D.o: Vector3D.cpp.o
+
+.PHONY : Vector3D.o
+
+# target to build an object file
+Vector3D.cpp.o:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.o
+.PHONY : Vector3D.cpp.o
+
+Vector3D.i: Vector3D.cpp.i
+
+.PHONY : Vector3D.i
+
+# target to preprocess a source file
+Vector3D.cpp.i:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.i
+.PHONY : Vector3D.cpp.i
+
+Vector3D.s: Vector3D.cpp.s
+
+.PHONY : Vector3D.s
+
+# target to generate assembly for a file
+Vector3D.cpp.s:
+	$(MAKE) -f CMakeFiles/framework.dir/build.make CMakeFiles/framework.dir/Vector3D.cpp.s
+.PHONY : Vector3D.cpp.s
 
 main.o: main.cpp.o
 
@@ -276,9 +330,15 @@ help:
 	@echo "... MainWindow.o"
 	@echo "... MainWindow.i"
 	@echo "... MainWindow.s"
+	@echo "... Matrix3D.o"
+	@echo "... Matrix3D.i"
+	@echo "... Matrix3D.s"
 	@echo "... Object3D.o"
 	@echo "... Object3D.i"
 	@echo "... Object3D.s"
+	@echo "... Vector3D.o"
+	@echo "... Vector3D.i"
+	@echo "... Vector3D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

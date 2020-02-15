@@ -70,22 +70,9 @@ CMakeFiles/framework.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/main.cpp -o CMakeFiles/framework.dir/main.cpp.s
 
-CMakeFiles/framework.dir/Cube.cpp.o: CMakeFiles/framework.dir/flags.make
-CMakeFiles/framework.dir/Cube.cpp.o: ../Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/framework.dir/Cube.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Cube.cpp.o -c /home/nikifaets/code/RayTracing/Cube.cpp
-
-CMakeFiles/framework.dir/Cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/framework.dir/Cube.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/Cube.cpp > CMakeFiles/framework.dir/Cube.cpp.i
-
-CMakeFiles/framework.dir/Cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/Cube.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/Cube.cpp -o CMakeFiles/framework.dir/Cube.cpp.s
-
 CMakeFiles/framework.dir/Object3D.cpp.o: CMakeFiles/framework.dir/flags.make
 CMakeFiles/framework.dir/Object3D.cpp.o: ../Object3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/framework.dir/Object3D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/framework.dir/Object3D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Object3D.cpp.o -c /home/nikifaets/code/RayTracing/Object3D.cpp
 
 CMakeFiles/framework.dir/Object3D.cpp.i: cmake_force
@@ -96,9 +83,48 @@ CMakeFiles/framework.dir/Object3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/Object3D.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/Object3D.cpp -o CMakeFiles/framework.dir/Object3D.cpp.s
 
+CMakeFiles/framework.dir/Cube.cpp.o: CMakeFiles/framework.dir/flags.make
+CMakeFiles/framework.dir/Cube.cpp.o: ../Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/framework.dir/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Cube.cpp.o -c /home/nikifaets/code/RayTracing/Cube.cpp
+
+CMakeFiles/framework.dir/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/framework.dir/Cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/Cube.cpp > CMakeFiles/framework.dir/Cube.cpp.i
+
+CMakeFiles/framework.dir/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/Cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/Cube.cpp -o CMakeFiles/framework.dir/Cube.cpp.s
+
+CMakeFiles/framework.dir/Matrix3D.cpp.o: CMakeFiles/framework.dir/flags.make
+CMakeFiles/framework.dir/Matrix3D.cpp.o: ../Matrix3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/framework.dir/Matrix3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Matrix3D.cpp.o -c /home/nikifaets/code/RayTracing/Matrix3D.cpp
+
+CMakeFiles/framework.dir/Matrix3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/framework.dir/Matrix3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/Matrix3D.cpp > CMakeFiles/framework.dir/Matrix3D.cpp.i
+
+CMakeFiles/framework.dir/Matrix3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/Matrix3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/Matrix3D.cpp -o CMakeFiles/framework.dir/Matrix3D.cpp.s
+
+CMakeFiles/framework.dir/Vector3D.cpp.o: CMakeFiles/framework.dir/flags.make
+CMakeFiles/framework.dir/Vector3D.cpp.o: ../Vector3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/framework.dir/Vector3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Vector3D.cpp.o -c /home/nikifaets/code/RayTracing/Vector3D.cpp
+
+CMakeFiles/framework.dir/Vector3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/framework.dir/Vector3D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/Vector3D.cpp > CMakeFiles/framework.dir/Vector3D.cpp.i
+
+CMakeFiles/framework.dir/Vector3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/framework.dir/Vector3D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/Vector3D.cpp -o CMakeFiles/framework.dir/Vector3D.cpp.s
+
 CMakeFiles/framework.dir/Camera.cpp.o: CMakeFiles/framework.dir/flags.make
 CMakeFiles/framework.dir/Camera.cpp.o: ../Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/framework.dir/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/framework.dir/Camera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/Camera.cpp.o -c /home/nikifaets/code/RayTracing/Camera.cpp
 
 CMakeFiles/framework.dir/Camera.cpp.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/framework.dir/Camera.cpp.s: cmake_force
 
 CMakeFiles/framework.dir/MainWindow.cpp.o: CMakeFiles/framework.dir/flags.make
 CMakeFiles/framework.dir/MainWindow.cpp.o: ../MainWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/framework.dir/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/framework.dir/MainWindow.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/framework.dir/MainWindow.cpp.o -c /home/nikifaets/code/RayTracing/MainWindow.cpp
 
 CMakeFiles/framework.dir/MainWindow.cpp.i: cmake_force
@@ -125,8 +151,10 @@ CMakeFiles/framework.dir/MainWindow.cpp.s: cmake_force
 # Object files for target framework
 framework_OBJECTS = \
 "CMakeFiles/framework.dir/main.cpp.o" \
-"CMakeFiles/framework.dir/Cube.cpp.o" \
 "CMakeFiles/framework.dir/Object3D.cpp.o" \
+"CMakeFiles/framework.dir/Cube.cpp.o" \
+"CMakeFiles/framework.dir/Matrix3D.cpp.o" \
+"CMakeFiles/framework.dir/Vector3D.cpp.o" \
 "CMakeFiles/framework.dir/Camera.cpp.o" \
 "CMakeFiles/framework.dir/MainWindow.cpp.o"
 
@@ -134,13 +162,15 @@ framework_OBJECTS = \
 framework_EXTERNAL_OBJECTS =
 
 framework: CMakeFiles/framework.dir/main.cpp.o
-framework: CMakeFiles/framework.dir/Cube.cpp.o
 framework: CMakeFiles/framework.dir/Object3D.cpp.o
+framework: CMakeFiles/framework.dir/Cube.cpp.o
+framework: CMakeFiles/framework.dir/Matrix3D.cpp.o
+framework: CMakeFiles/framework.dir/Vector3D.cpp.o
 framework: CMakeFiles/framework.dir/Camera.cpp.o
 framework: CMakeFiles/framework.dir/MainWindow.cpp.o
 framework: CMakeFiles/framework.dir/build.make
 framework: CMakeFiles/framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable framework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable framework"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/framework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

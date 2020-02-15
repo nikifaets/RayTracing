@@ -3,16 +3,22 @@
 
 CMakeFiles/framework.dir/Camera.cpp.o: ../Camera.cpp
 CMakeFiles/framework.dir/Camera.cpp.o: ../Camera.h
+CMakeFiles/framework.dir/Camera.cpp.o: ../Matrix3D.h
 CMakeFiles/framework.dir/Camera.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/Camera.cpp.o: ../Vector3D.h
 
 CMakeFiles/framework.dir/Cube.cpp.o: ../Cube.cpp
 CMakeFiles/framework.dir/Cube.cpp.o: ../Cube.h
+CMakeFiles/framework.dir/Cube.cpp.o: ../Matrix3D.h
 CMakeFiles/framework.dir/Cube.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/Cube.cpp.o: ../Vector3D.h
 
 CMakeFiles/framework.dir/MainWindow.cpp.o: ../Camera.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: ../MainWindow.cpp
 CMakeFiles/framework.dir/MainWindow.cpp.o: ../MainWindow.h
+CMakeFiles/framework.dir/MainWindow.cpp.o: ../Matrix3D.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/MainWindow.cpp.o: ../Vector3D.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/SDL_assert.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/SDL_atomic.h
@@ -59,13 +65,24 @@ CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/SDL_video.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/framework.dir/MainWindow.cpp.o: /usr/include/SDL2/close_code.h
 
+CMakeFiles/framework.dir/Matrix3D.cpp.o: ../Matrix3D.cpp
+CMakeFiles/framework.dir/Matrix3D.cpp.o: ../Matrix3D.h
+CMakeFiles/framework.dir/Matrix3D.cpp.o: ../Vector3D.h
+
+CMakeFiles/framework.dir/Object3D.cpp.o: ../Matrix3D.h
 CMakeFiles/framework.dir/Object3D.cpp.o: ../Object3D.cpp
 CMakeFiles/framework.dir/Object3D.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/Object3D.cpp.o: ../Vector3D.h
+
+CMakeFiles/framework.dir/Vector3D.cpp.o: ../Vector3D.cpp
+CMakeFiles/framework.dir/Vector3D.cpp.o: ../Vector3D.h
 
 CMakeFiles/framework.dir/main.cpp.o: ../Camera.h
 CMakeFiles/framework.dir/main.cpp.o: ../Cube.h
 CMakeFiles/framework.dir/main.cpp.o: ../MainWindow.h
+CMakeFiles/framework.dir/main.cpp.o: ../Matrix3D.h
 CMakeFiles/framework.dir/main.cpp.o: ../Object3D.h
+CMakeFiles/framework.dir/main.cpp.o: ../Vector3D.h
 CMakeFiles/framework.dir/main.cpp.o: ../main.cpp
 CMakeFiles/framework.dir/main.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/framework.dir/main.cpp.o: /usr/include/SDL2/SDL_assert.h
