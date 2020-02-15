@@ -1,5 +1,4 @@
 #include "Cube.h"
-#include "Object3D.h"
 #include <iostream>
 #include "MainWindow.h"
 #include "Camera.h"

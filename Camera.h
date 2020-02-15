@@ -22,4 +22,5 @@ private:
 	int screen_h = 0;
 	std::vector <std::vector < std::array<int, 3> > > display;
 };
+
 #endif

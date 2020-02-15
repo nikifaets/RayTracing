@@ -3,14 +3,11 @@
 using namespace std;
 MainWindow :: MainWindow(int height_, int width_) : height(height_), width(width_){
 
-
-
-	SDL_Init(SDL_INIT_VIDEO);       // Initializing SDL as Video
+	SDL_Init(SDL_INIT_VIDEO);
 	SDL_CreateWindowAndRenderer(width, height, 0, &window, &renderer);
-	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);      // setting draw color
-	SDL_RenderClear(renderer);      // Clear the newly created window
-	SDL_RenderPresent(renderer);    // Reflects the changes done in the
-	                                //  window.
+	SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
+	SDL_RenderClear(renderer);
+	SDL_RenderPresent(renderer);
 	}
 
 MainWindow :: ~MainWindow(){
@@ -40,10 +37,8 @@ void MainWindow :: render_display(){
 
 void MainWindow :: draw_circle(int center_x, int center_y, int radius){
 
-	// Setting the color to be RED with 100% opaque (0% trasparent).
 	SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
 
-	// Drawing circle
 	for(int x=center_x-radius; x<=center_x+radius; x++){
 	    for(int y=center_y-radius; y<=center_y+radius; y++){
 	        if((std::pow(center_y-y,2)+std::pow(center_x-x,2)) <= 
@@ -53,7 +48,6 @@ void MainWindow :: draw_circle(int center_x, int center_y, int radius){
 	    }
 	}
 
-	// Show the change on the screen
 	SDL_RenderPresent(renderer);
 }
 
