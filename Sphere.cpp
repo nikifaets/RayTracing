@@ -28,9 +28,9 @@ bool Sphere::intersects_ray(Vector3D& from, Vector3D& to){
 	float numerator = from.dot(ray_direction) - center.dot(ray_direction);
 	float denominator = ray_direction.dot(ray_direction);
 
-	float t = numerator / denominator;
+	float t = -numerator / denominator;
 
-	Vector3D intersection_point = from + to.scale(t);
+	Vector3D intersection_point = from + ray_direction.scale(t);
 
 	float dist = center.distance_to(intersection_point);
 

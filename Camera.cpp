@@ -4,10 +4,10 @@ using namespace std;
 
 Camera::Camera(){}
 
-Camera::Camera(int screen_w_, int screen_h_) : screen_w(screen_w_), screen_h(screen_h_) {
+Camera::Camera(int screen_h_, int screen_w_) : screen_w(screen_w_), screen_h(screen_h_) {
 
-	display.resize(screen_w);
-	for(int i=0; i<screen_w; i++) display[i].resize(screen_h);
+	display.resize(screen_h);
+	for(int i=0; i<screen_h; i++) display[i].resize(screen_w);
 }
 
 vector <vector <array <int, 3> > > Camera::get_display(){
@@ -49,10 +49,15 @@ void Camera::draw(){
 		for(int j=0; j<display[i].size(); j++){
 
 			float y = j;
-			float z = i;
+			float z = -i;
 
-			Vector3D from = translation + Vector3D(0,y,z);
-			Vector3D to = Vector3D(1,0,0);
+			Vector3D offset_y(0, -screen_w/2., 0);
+			Vector3D offset_z(0,0, screen_h/2.);
+
+			Vector3D pixel = Vector3D(translation.x, translation.y+y, translation.z+z) + offset_y + offset_z;
+
+			Vector3D from = pixel;
+			Vector3D to = pixel + Vector3D(1,0,0);
 
 			Object3D *object = objects[0];
 			bool intersects = object->intersects_ray(from, to);

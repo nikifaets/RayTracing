@@ -11,8 +11,7 @@ class Camera : public Object3D{
 public:
 
 	Camera();
-	Camera(int screen_w_, int screen_h_); 
-	void render_display(std::vector <Object3D> objects_list);
+	Camera(int screen_h_, int screen_w_); 
 	std::vector <std::vector <std::array <int, 3> > > get_display();
 	void fill_display_black();
 	void print_display();

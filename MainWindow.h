@@ -12,8 +12,6 @@ public:
 
     ~MainWindow();
 
-  	void draw_circle(int center_x, int center_y, int radius);
-
   	void set_camera(Camera *camera_);
 
   	void render_display();
