@@ -123,275 +123,275 @@ raytracer/fast:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/build
 .PHONY : raytracer/fast
 
-Camera.o: Camera.cpp.o
+src/MainWindow.o: src/MainWindow.cpp.o
 
-.PHONY : Camera.o
-
-# target to build an object file
-Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.o
-.PHONY : Camera.cpp.o
-
-Camera.i: Camera.cpp.i
-
-.PHONY : Camera.i
-
-# target to preprocess a source file
-Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.i
-.PHONY : Camera.cpp.i
-
-Camera.s: Camera.cpp.s
-
-.PHONY : Camera.s
-
-# target to generate assembly for a file
-Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.s
-.PHONY : Camera.cpp.s
-
-Collision3D.o: Collision3D.cpp.o
-
-.PHONY : Collision3D.o
+.PHONY : src/MainWindow.o
 
 # target to build an object file
-Collision3D.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.o
-.PHONY : Collision3D.cpp.o
+src/MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
 
-Collision3D.i: Collision3D.cpp.i
+src/MainWindow.i: src/MainWindow.cpp.i
 
-.PHONY : Collision3D.i
+.PHONY : src/MainWindow.i
 
 # target to preprocess a source file
-Collision3D.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.i
-.PHONY : Collision3D.cpp.i
+src/MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
 
-Collision3D.s: Collision3D.cpp.s
+src/MainWindow.s: src/MainWindow.cpp.s
 
-.PHONY : Collision3D.s
+.PHONY : src/MainWindow.s
 
 # target to generate assembly for a file
-Collision3D.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.s
-.PHONY : Collision3D.cpp.s
+src/MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
 
-Cube.o: Cube.cpp.o
+src/Spatial/Camera/Camera.o: src/Spatial/Camera/Camera.cpp.o
 
-.PHONY : Cube.o
+.PHONY : src/Spatial/Camera/Camera.o
 
 # target to build an object file
-Cube.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.o
-.PHONY : Cube.cpp.o
+src/Spatial/Camera/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o
+.PHONY : src/Spatial/Camera/Camera.cpp.o
 
-Cube.i: Cube.cpp.i
+src/Spatial/Camera/Camera.i: src/Spatial/Camera/Camera.cpp.i
 
-.PHONY : Cube.i
+.PHONY : src/Spatial/Camera/Camera.i
 
 # target to preprocess a source file
-Cube.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.i
-.PHONY : Cube.cpp.i
+src/Spatial/Camera/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.i
+.PHONY : src/Spatial/Camera/Camera.cpp.i
 
-Cube.s: Cube.cpp.s
+src/Spatial/Camera/Camera.s: src/Spatial/Camera/Camera.cpp.s
 
-.PHONY : Cube.s
+.PHONY : src/Spatial/Camera/Camera.s
 
 # target to generate assembly for a file
-Cube.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Cube.cpp.s
-.PHONY : Cube.cpp.s
+src/Spatial/Camera/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.s
+.PHONY : src/Spatial/Camera/Camera.cpp.s
 
-MainWindow.o: MainWindow.cpp.o
+src/Spatial/Collision/Collision3D.o: src/Spatial/Collision/Collision3D.cpp.o
 
-.PHONY : MainWindow.o
+.PHONY : src/Spatial/Collision/Collision3D.o
 
 # target to build an object file
-MainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.o
-.PHONY : MainWindow.cpp.o
+src/Spatial/Collision/Collision3D.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o
+.PHONY : src/Spatial/Collision/Collision3D.cpp.o
 
-MainWindow.i: MainWindow.cpp.i
+src/Spatial/Collision/Collision3D.i: src/Spatial/Collision/Collision3D.cpp.i
 
-.PHONY : MainWindow.i
+.PHONY : src/Spatial/Collision/Collision3D.i
 
 # target to preprocess a source file
-MainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.i
-.PHONY : MainWindow.cpp.i
+src/Spatial/Collision/Collision3D.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.i
+.PHONY : src/Spatial/Collision/Collision3D.cpp.i
 
-MainWindow.s: MainWindow.cpp.s
+src/Spatial/Collision/Collision3D.s: src/Spatial/Collision/Collision3D.cpp.s
 
-.PHONY : MainWindow.s
+.PHONY : src/Spatial/Collision/Collision3D.s
 
 # target to generate assembly for a file
-MainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/MainWindow.cpp.s
-.PHONY : MainWindow.cpp.s
+src/Spatial/Collision/Collision3D.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.s
+.PHONY : src/Spatial/Collision/Collision3D.cpp.s
 
-Matrix3D.o: Matrix3D.cpp.o
+src/Spatial/Object3D/Cube.o: src/Spatial/Object3D/Cube.cpp.o
 
-.PHONY : Matrix3D.o
+.PHONY : src/Spatial/Object3D/Cube.o
 
 # target to build an object file
-Matrix3D.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.o
-.PHONY : Matrix3D.cpp.o
+src/Spatial/Object3D/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o
+.PHONY : src/Spatial/Object3D/Cube.cpp.o
 
-Matrix3D.i: Matrix3D.cpp.i
+src/Spatial/Object3D/Cube.i: src/Spatial/Object3D/Cube.cpp.i
 
-.PHONY : Matrix3D.i
+.PHONY : src/Spatial/Object3D/Cube.i
 
 # target to preprocess a source file
-Matrix3D.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.i
-.PHONY : Matrix3D.cpp.i
+src/Spatial/Object3D/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.i
+.PHONY : src/Spatial/Object3D/Cube.cpp.i
 
-Matrix3D.s: Matrix3D.cpp.s
+src/Spatial/Object3D/Cube.s: src/Spatial/Object3D/Cube.cpp.s
 
-.PHONY : Matrix3D.s
+.PHONY : src/Spatial/Object3D/Cube.s
 
 # target to generate assembly for a file
-Matrix3D.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Matrix3D.cpp.s
-.PHONY : Matrix3D.cpp.s
+src/Spatial/Object3D/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.s
+.PHONY : src/Spatial/Object3D/Cube.cpp.s
 
-Object3D.o: Object3D.cpp.o
+src/Spatial/Object3D/Object3D.o: src/Spatial/Object3D/Object3D.cpp.o
 
-.PHONY : Object3D.o
+.PHONY : src/Spatial/Object3D/Object3D.o
 
 # target to build an object file
-Object3D.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.o
-.PHONY : Object3D.cpp.o
+src/Spatial/Object3D/Object3D.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o
+.PHONY : src/Spatial/Object3D/Object3D.cpp.o
 
-Object3D.i: Object3D.cpp.i
+src/Spatial/Object3D/Object3D.i: src/Spatial/Object3D/Object3D.cpp.i
 
-.PHONY : Object3D.i
+.PHONY : src/Spatial/Object3D/Object3D.i
 
 # target to preprocess a source file
-Object3D.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.i
-.PHONY : Object3D.cpp.i
+src/Spatial/Object3D/Object3D.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.i
+.PHONY : src/Spatial/Object3D/Object3D.cpp.i
 
-Object3D.s: Object3D.cpp.s
+src/Spatial/Object3D/Object3D.s: src/Spatial/Object3D/Object3D.cpp.s
 
-.PHONY : Object3D.s
+.PHONY : src/Spatial/Object3D/Object3D.s
 
 # target to generate assembly for a file
-Object3D.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.s
-.PHONY : Object3D.cpp.s
+src/Spatial/Object3D/Object3D.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.s
+.PHONY : src/Spatial/Object3D/Object3D.cpp.s
 
-Ray.o: Ray.cpp.o
+src/Spatial/Object3D/Sphere.o: src/Spatial/Object3D/Sphere.cpp.o
 
-.PHONY : Ray.o
+.PHONY : src/Spatial/Object3D/Sphere.o
 
 # target to build an object file
-Ray.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.o
-.PHONY : Ray.cpp.o
+src/Spatial/Object3D/Sphere.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o
+.PHONY : src/Spatial/Object3D/Sphere.cpp.o
 
-Ray.i: Ray.cpp.i
+src/Spatial/Object3D/Sphere.i: src/Spatial/Object3D/Sphere.cpp.i
 
-.PHONY : Ray.i
+.PHONY : src/Spatial/Object3D/Sphere.i
 
 # target to preprocess a source file
-Ray.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.i
-.PHONY : Ray.cpp.i
+src/Spatial/Object3D/Sphere.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.i
+.PHONY : src/Spatial/Object3D/Sphere.cpp.i
 
-Ray.s: Ray.cpp.s
+src/Spatial/Object3D/Sphere.s: src/Spatial/Object3D/Sphere.cpp.s
 
-.PHONY : Ray.s
+.PHONY : src/Spatial/Object3D/Sphere.s
 
 # target to generate assembly for a file
-Ray.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.s
-.PHONY : Ray.cpp.s
+src/Spatial/Object3D/Sphere.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.s
+.PHONY : src/Spatial/Object3D/Sphere.cpp.s
 
-Sphere.o: Sphere.cpp.o
+src/Spatial/Primitives/Matrix3D.o: src/Spatial/Primitives/Matrix3D.cpp.o
 
-.PHONY : Sphere.o
+.PHONY : src/Spatial/Primitives/Matrix3D.o
 
 # target to build an object file
-Sphere.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.o
-.PHONY : Sphere.cpp.o
+src/Spatial/Primitives/Matrix3D.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o
+.PHONY : src/Spatial/Primitives/Matrix3D.cpp.o
 
-Sphere.i: Sphere.cpp.i
+src/Spatial/Primitives/Matrix3D.i: src/Spatial/Primitives/Matrix3D.cpp.i
 
-.PHONY : Sphere.i
+.PHONY : src/Spatial/Primitives/Matrix3D.i
 
 # target to preprocess a source file
-Sphere.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.i
-.PHONY : Sphere.cpp.i
+src/Spatial/Primitives/Matrix3D.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.i
+.PHONY : src/Spatial/Primitives/Matrix3D.cpp.i
 
-Sphere.s: Sphere.cpp.s
+src/Spatial/Primitives/Matrix3D.s: src/Spatial/Primitives/Matrix3D.cpp.s
 
-.PHONY : Sphere.s
+.PHONY : src/Spatial/Primitives/Matrix3D.s
 
 # target to generate assembly for a file
-Sphere.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Sphere.cpp.s
-.PHONY : Sphere.cpp.s
+src/Spatial/Primitives/Matrix3D.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.s
+.PHONY : src/Spatial/Primitives/Matrix3D.cpp.s
 
-Vector3D.o: Vector3D.cpp.o
+src/Spatial/Primitives/Ray.o: src/Spatial/Primitives/Ray.cpp.o
 
-.PHONY : Vector3D.o
+.PHONY : src/Spatial/Primitives/Ray.o
 
 # target to build an object file
-Vector3D.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.o
-.PHONY : Vector3D.cpp.o
+src/Spatial/Primitives/Ray.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o
+.PHONY : src/Spatial/Primitives/Ray.cpp.o
 
-Vector3D.i: Vector3D.cpp.i
+src/Spatial/Primitives/Ray.i: src/Spatial/Primitives/Ray.cpp.i
 
-.PHONY : Vector3D.i
+.PHONY : src/Spatial/Primitives/Ray.i
 
 # target to preprocess a source file
-Vector3D.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.i
-.PHONY : Vector3D.cpp.i
+src/Spatial/Primitives/Ray.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.i
+.PHONY : src/Spatial/Primitives/Ray.cpp.i
 
-Vector3D.s: Vector3D.cpp.s
+src/Spatial/Primitives/Ray.s: src/Spatial/Primitives/Ray.cpp.s
 
-.PHONY : Vector3D.s
+.PHONY : src/Spatial/Primitives/Ray.s
 
 # target to generate assembly for a file
-Vector3D.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Vector3D.cpp.s
-.PHONY : Vector3D.cpp.s
+src/Spatial/Primitives/Ray.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.s
+.PHONY : src/Spatial/Primitives/Ray.cpp.s
 
-main.o: main.cpp.o
+src/Spatial/Primitives/Vector3D.o: src/Spatial/Primitives/Vector3D.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Spatial/Primitives/Vector3D.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Spatial/Primitives/Vector3D.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o
+.PHONY : src/Spatial/Primitives/Vector3D.cpp.o
 
-main.i: main.cpp.i
+src/Spatial/Primitives/Vector3D.i: src/Spatial/Primitives/Vector3D.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Spatial/Primitives/Vector3D.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Spatial/Primitives/Vector3D.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.i
+.PHONY : src/Spatial/Primitives/Vector3D.cpp.i
 
-main.s: main.cpp.s
+src/Spatial/Primitives/Vector3D.s: src/Spatial/Primitives/Vector3D.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Spatial/Primitives/Vector3D.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Spatial/Primitives/Vector3D.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.s
+.PHONY : src/Spatial/Primitives/Vector3D.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -402,36 +402,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... raytracer"
 	@echo "... edit_cache"
-	@echo "... Camera.o"
-	@echo "... Camera.i"
-	@echo "... Camera.s"
-	@echo "... Collision3D.o"
-	@echo "... Collision3D.i"
-	@echo "... Collision3D.s"
-	@echo "... Cube.o"
-	@echo "... Cube.i"
-	@echo "... Cube.s"
-	@echo "... MainWindow.o"
-	@echo "... MainWindow.i"
-	@echo "... MainWindow.s"
-	@echo "... Matrix3D.o"
-	@echo "... Matrix3D.i"
-	@echo "... Matrix3D.s"
-	@echo "... Object3D.o"
-	@echo "... Object3D.i"
-	@echo "... Object3D.s"
-	@echo "... Ray.o"
-	@echo "... Ray.i"
-	@echo "... Ray.s"
-	@echo "... Sphere.o"
-	@echo "... Sphere.i"
-	@echo "... Sphere.s"
-	@echo "... Vector3D.o"
-	@echo "... Vector3D.i"
-	@echo "... Vector3D.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
+	@echo "... src/Spatial/Camera/Camera.o"
+	@echo "... src/Spatial/Camera/Camera.i"
+	@echo "... src/Spatial/Camera/Camera.s"
+	@echo "... src/Spatial/Collision/Collision3D.o"
+	@echo "... src/Spatial/Collision/Collision3D.i"
+	@echo "... src/Spatial/Collision/Collision3D.s"
+	@echo "... src/Spatial/Object3D/Cube.o"
+	@echo "... src/Spatial/Object3D/Cube.i"
+	@echo "... src/Spatial/Object3D/Cube.s"
+	@echo "... src/Spatial/Object3D/Object3D.o"
+	@echo "... src/Spatial/Object3D/Object3D.i"
+	@echo "... src/Spatial/Object3D/Object3D.s"
+	@echo "... src/Spatial/Object3D/Sphere.o"
+	@echo "... src/Spatial/Object3D/Sphere.i"
+	@echo "... src/Spatial/Object3D/Sphere.s"
+	@echo "... src/Spatial/Primitives/Matrix3D.o"
+	@echo "... src/Spatial/Primitives/Matrix3D.i"
+	@echo "... src/Spatial/Primitives/Matrix3D.s"
+	@echo "... src/Spatial/Primitives/Ray.o"
+	@echo "... src/Spatial/Primitives/Ray.i"
+	@echo "... src/Spatial/Primitives/Ray.s"
+	@echo "... src/Spatial/Primitives/Vector3D.o"
+	@echo "... src/Spatial/Primitives/Vector3D.i"
+	@echo "... src/Spatial/Primitives/Vector3D.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -2,8 +2,8 @@
 #define SPHERE_H
 
 #include "Object3D.h"
-#include "Vector3D.h"
-#include "Collision3D.h"
+#include "../Primitives/Vector3D.h"
+#include "../Collision/Collision3D.h"
 
 class Sphere : public Object3D{
 

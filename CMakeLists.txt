@@ -7,8 +7,13 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 # Our project name
 project (raytracer)
 
-add_executable(raytracer main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp Collision3D.cpp Ray.cpp )
+file(GLOB_RECURSE raytracer_SRC
 
+	"src/*.h"
+	"src/*.cpp"
+)
+
+add_executable(raytracer ${raytracer_SRC})
 
 # For finding our SDL2 package!
 

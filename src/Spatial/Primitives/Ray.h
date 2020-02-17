@@ -2,8 +2,8 @@
 #define RAY_H
 
 #include <vector>
-#include "Collision3D.h"
-#include "Object3D.h"
+#include "../Collision/Collision3D.h"
+#include "../Object3D/Object3D.h"
 
 class Ray{
 

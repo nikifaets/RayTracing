@@ -1,10 +1,9 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "Object3D.h"
+#include "../Object3D/Object3D.h"
 #include <vector>
 #include <array>
-#include "Sphere.h"
 
 class Camera : public Object3D{
 

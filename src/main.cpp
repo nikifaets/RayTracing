@@ -1,9 +1,8 @@
-#include "Cube.h"
 #include <iostream>
 #include "MainWindow.h"
-#include "Camera.h"
-#include "Vector3D.h"
-#include "Sphere.h"
+#include "Spatial/Camera/Camera.h"
+#include "Spatial/Primitives/Vector3D.h"
+#include "Spatial/Object3D/Sphere.h"
 #include <cmath>
 using namespace std;
 
@@ -12,9 +11,13 @@ int main(int argc, char * argv[]){
 	vector <Object3D*> objects;
 
 	Sphere sphere(Vector3D(100,0,10), 100);
-
+    Sphere sphere1(Vector3D(150, 0, 0), 120);
 	//sphere.center = Vector3D(0,0,0);
 	objects.push_back(&sphere);
+    objects.push_back(&sphere1);
+
+    sphere.color = Vector3D(255,0,0);
+    sphere1.color = Vector3D(0,255,0);
 
     MainWindow window(200, 400);
 
@@ -34,11 +37,11 @@ int main(int argc, char * argv[]){
 
     	sphere.translation = sphere.translation + Vector3D(0,-9,1);
     	//main_camera.translation = main_camera.translation + Vector3D(0,-9,0);
-    	//main_camera.rotate_z(-0.05);
+    	main_camera.rotate_z(-0.05);
     	main_camera.draw();
     	window.render_display();
 
-    	SDL_Delay(10);
+    	SDL_Delay(1);
     }
 
     SDL_Event event;   

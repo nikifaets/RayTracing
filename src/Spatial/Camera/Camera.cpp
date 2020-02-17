@@ -1,6 +1,6 @@
 #include "Camera.h"
-#include "Collision3D.h"
-#include "Ray.h"
+#include "../Collision/Collision3D.h"
+#include "../Primitives/Ray.h"
 #include "cmath"
 #include <iostream>
 using namespace std;
@@ -79,12 +79,15 @@ void Camera::draw(){
 
 			if(closest_collision.collision_point == null_vector){
 
-				display[i][j] = {0,0,0};
+				display[i][j] = {255,255,255};
 			}
 
 			else{
 
-				display[i][j] = {255,255,255};
+				Object3D* collider = closest_collision.collider;
+				Vector3D color = collider->color;
+
+				display[i][j] = {color.x, color.y, color.z};
 			}
 		}
 	}

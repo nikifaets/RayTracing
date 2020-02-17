@@ -1,7 +1,7 @@
 #ifndef COLLISION_3D_H
 #define COLLISION_3D_H
 
-#include "Object3D.h"
+#include "../Object3D/Object3D.h"
 
 struct Collision3D{
 

@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nikifaets/code/RayTracing/Camera.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Camera.cpp.o"
-  "/home/nikifaets/code/RayTracing/Collision3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Collision3D.cpp.o"
-  "/home/nikifaets/code/RayTracing/Cube.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Cube.cpp.o"
-  "/home/nikifaets/code/RayTracing/MainWindow.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/MainWindow.cpp.o"
-  "/home/nikifaets/code/RayTracing/Matrix3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Matrix3D.cpp.o"
-  "/home/nikifaets/code/RayTracing/Object3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Object3D.cpp.o"
-  "/home/nikifaets/code/RayTracing/Ray.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Ray.cpp.o"
-  "/home/nikifaets/code/RayTracing/Sphere.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Sphere.cpp.o"
-  "/home/nikifaets/code/RayTracing/Vector3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/Vector3D.cpp.o"
-  "/home/nikifaets/code/RayTracing/main.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/main.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/MainWindow.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/MainWindow.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Sphere.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/main.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

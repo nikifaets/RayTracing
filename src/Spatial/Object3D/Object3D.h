@@ -2,8 +2,8 @@
 #define OBJECT_3D_H
 
 #include <string>
-#include "Matrix3D.h"
-#include "Vector3D.h"
+#include "../Primitives/Matrix3D.h"
+#include "../Primitives/Vector3D.h"
 
 class Object3D{
 
