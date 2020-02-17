@@ -47,8 +47,8 @@ void Camera:: set_objects(vector <Object3D*> objects_){
 
 void Camera::draw(){
 
-	Vector3D eye(-200,0,0);
-	eye = basis.multiply_vector(eye);
+	Vector3D eye;
+	eye = eye - basis.x.scale(200);
 	eye = eye + translation;
 
 	for(int i=0; i<display.size(); i++){

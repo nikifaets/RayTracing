@@ -10,11 +10,11 @@ int main(int argc, char * argv[]){
 
 	vector <Object3D*> objects;
 
-	Sphere sphere(Vector3D(100,0,10), 100);
+	Sphere sphere(Vector3D(100,0,0), 50);
     Sphere sphere1(Vector3D(150, 0, 0), 120);
 	//sphere.center = Vector3D(0,0,0);
 	objects.push_back(&sphere);
-    objects.push_back(&sphere1);
+    //objects.push_back(&sphere1);
 
     sphere.color = Vector3D(255,0,0);
     sphere1.color = Vector3D(0,255,0);
@@ -27,7 +27,7 @@ int main(int argc, char * argv[]){
     main_camera.set_objects(objects);
 
     //main_camera.basis.print_matrix();
-    main_camera.rotate_z(1.2);
+    //main_camera.rotate_z(1.2);
     main_camera.draw();
     window.set_camera(&main_camera);
 
@@ -35,9 +35,9 @@ int main(int argc, char * argv[]){
 
     for(int i=0; i<200; i++){
 
-    	sphere.translation = sphere.translation + Vector3D(0,-9,1);
-    	//main_camera.translation = main_camera.translation + Vector3D(0,-9,0);
-    	main_camera.rotate_z(-0.05);
+    	//sphere.translation = sphere.translation + Vector3D(0,-9,1);
+    	//main_camera.translation = main_camera.translation + Vector3D(0,sin(i),0).scale(80);
+    	main_camera.rotate_z(0.1);
     	main_camera.draw();
     	window.render_display();
 
