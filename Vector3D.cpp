@@ -43,6 +43,11 @@ bool Vector3D::operator == (const Vector3D& arg){
 	return this->x == arg.x && this->y == arg.x && this->z == arg.z;
 }
 
+bool Vector3D::operator != (const Vector3D& arg){
+
+	return this->x != arg.x || this->y != arg.y || this->z != arg.z;
+}
+
 float Vector3D::dot(const Vector3D& arg){
 
 	float dot_x = this->x * arg.x;
@@ -60,3 +65,4 @@ float Vector3D::distance_to(const Vector3D& arg){
 
 	return sqrt(dist_x + dist_y + dist_z);
 }
+

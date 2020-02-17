@@ -9,6 +9,12 @@
 /home/nikifaets/code/RayTracing/Camera.cpp
 Camera.h
 /home/nikifaets/code/RayTracing/Camera.h
+Collision3D.h
+/home/nikifaets/code/RayTracing/Collision3D.h
+Ray.h
+/home/nikifaets/code/RayTracing/Ray.h
+cmath
+/home/nikifaets/code/RayTracing/cmath
 iostream
 -
 
@@ -22,10 +28,28 @@ array
 Sphere.h
 /home/nikifaets/code/RayTracing/Sphere.h
 
+/home/nikifaets/code/RayTracing/Collision3D.cpp
+Collision3D.h
+/home/nikifaets/code/RayTracing/Collision3D.h
+
+/home/nikifaets/code/RayTracing/Collision3D.h
+Object3D.h
+/home/nikifaets/code/RayTracing/Object3D.h
+
+/home/nikifaets/code/RayTracing/Cube.cpp
+Cube.h
+/home/nikifaets/code/RayTracing/Cube.h
+
 /home/nikifaets/code/RayTracing/Cube.h
 Object3D.h
 /home/nikifaets/code/RayTracing/Object3D.h
 string
+-
+
+/home/nikifaets/code/RayTracing/MainWindow.cpp
+MainWindow.h
+/home/nikifaets/code/RayTracing/MainWindow.h
+iostream
 -
 
 /home/nikifaets/code/RayTracing/MainWindow.h
@@ -34,11 +58,25 @@ SDL.h
 Camera.h
 /home/nikifaets/code/RayTracing/Camera.h
 
+/home/nikifaets/code/RayTracing/Matrix3D.cpp
+Matrix3D.h
+/home/nikifaets/code/RayTracing/Matrix3D.h
+iostream
+-
+
 /home/nikifaets/code/RayTracing/Matrix3D.h
 vector
 -
 Vector3D.h
 /home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/Object3D.cpp
+Object3D.h
+/home/nikifaets/code/RayTracing/Object3D.h
+iostream
+-
+cmath
+-
 
 /home/nikifaets/code/RayTracing/Object3D.h
 string
@@ -47,6 +85,20 @@ Matrix3D.h
 /home/nikifaets/code/RayTracing/Matrix3D.h
 Vector3D.h
 /home/nikifaets/code/RayTracing/Vector3D.h
+
+/home/nikifaets/code/RayTracing/Ray.cpp
+Ray.h
+/home/nikifaets/code/RayTracing/Ray.h
+cmath
+-
+
+/home/nikifaets/code/RayTracing/Ray.h
+vector
+-
+Collision3D.h
+/home/nikifaets/code/RayTracing/Collision3D.h
+Object3D.h
+/home/nikifaets/code/RayTracing/Object3D.h
 
 /home/nikifaets/code/RayTracing/Sphere.cpp
 Sphere.h
@@ -63,8 +115,18 @@ Object3D.h
 /home/nikifaets/code/RayTracing/Object3D.h
 Vector3D.h
 /home/nikifaets/code/RayTracing/Vector3D.h
+Collision3D.h
+/home/nikifaets/code/RayTracing/Collision3D.h
+
+/home/nikifaets/code/RayTracing/Vector3D.cpp
+Vector3D.h
+/home/nikifaets/code/RayTracing/Vector3D.h
+cmath
+-
 
 /home/nikifaets/code/RayTracing/Vector3D.h
+cmath
+-
 
 /home/nikifaets/code/RayTracing/main.cpp
 Cube.h

@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 # Our project name
 project (raytracer)
 
-add_executable(raytracer main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp )
+add_executable(raytracer main.cpp Object3D.cpp Cube.cpp Matrix3D.cpp Vector3D.cpp Camera.cpp MainWindow.cpp Sphere.cpp Collision3D.cpp Ray.cpp )
 
 
 # For finding our SDL2 package!

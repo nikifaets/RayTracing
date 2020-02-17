@@ -2,6 +2,10 @@
 
 #define VECTOR_3D_H
 
+#include <cmath>
+
+#define null_vector Vector3D(INFINITY, INFINITY, INFINITY)
+
 class Vector3D{
 
 public:
@@ -23,6 +27,8 @@ public:
 	Vector3D scale (const float arg);
 
 	bool operator == (const Vector3D& arg);
+
+	bool operator != (const Vector3D& arg);
 	
 	float dot(const Vector3D& arg);
 

@@ -1,4 +1,7 @@
 #include "Camera.h"
+#include "Collision3D.h"
+#include "Ray.h"
+#include "cmath"
 #include <iostream>
 using namespace std;
 
@@ -44,6 +47,10 @@ void Camera:: set_objects(vector <Object3D*> objects_){
 
 void Camera::draw(){
 
+	Vector3D eye(-200,0,0);
+	eye = basis.multiply_vector(eye);
+	eye = eye + translation;
+
 	for(int i=0; i<display.size(); i++){
 
 		for(int j=0; j<display[i].size(); j++){
@@ -54,15 +61,23 @@ void Camera::draw(){
 			Vector3D offset_y(0, -screen_w/2., 0);
 			Vector3D offset_z(0,0, screen_h/2.);
 
-			Vector3D pixel = Vector3D(translation.x, translation.y+y, translation.z+z) + offset_y + offset_z;
+			Vector3D pixel(0,y,z);
 
-			Vector3D from = pixel;
-			Vector3D to = pixel + Vector3D(1,0,0);
+			//rotation
+			pixel = basis.multiply_vector(pixel);
+			
+			//translation
+			pixel = pixel + offset_y + offset_z + translation; 
+			
+			Vector3D from = eye;
+			Vector3D to = pixel;
 
-			Object3D *object = objects[0];
-			bool intersects = object->intersects_ray(from, to);
+			Ray ray(from, to);
+			ray.cast(objects);
 
-			if(intersects){
+			Collision3D closest_collision = ray.get_closest_collision();
+
+			if(closest_collision.collision_point == null_vector){
 
 				display[i][j] = {0,0,0};
 			}

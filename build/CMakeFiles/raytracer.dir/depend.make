@@ -3,10 +3,18 @@
 
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Camera.cpp
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Camera.h
+CMakeFiles/raytracer.dir/Camera.cpp.o: ../Collision3D.h
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Matrix3D.h
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Object3D.h
+CMakeFiles/raytracer.dir/Camera.cpp.o: ../Ray.h
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Sphere.h
 CMakeFiles/raytracer.dir/Camera.cpp.o: ../Vector3D.h
+
+CMakeFiles/raytracer.dir/Collision3D.cpp.o: ../Collision3D.cpp
+CMakeFiles/raytracer.dir/Collision3D.cpp.o: ../Collision3D.h
+CMakeFiles/raytracer.dir/Collision3D.cpp.o: ../Matrix3D.h
+CMakeFiles/raytracer.dir/Collision3D.cpp.o: ../Object3D.h
+CMakeFiles/raytracer.dir/Collision3D.cpp.o: ../Vector3D.h
 
 CMakeFiles/raytracer.dir/Cube.cpp.o: ../Cube.cpp
 CMakeFiles/raytracer.dir/Cube.cpp.o: ../Cube.h
@@ -15,6 +23,7 @@ CMakeFiles/raytracer.dir/Cube.cpp.o: ../Object3D.h
 CMakeFiles/raytracer.dir/Cube.cpp.o: ../Vector3D.h
 
 CMakeFiles/raytracer.dir/MainWindow.cpp.o: ../Camera.h
+CMakeFiles/raytracer.dir/MainWindow.cpp.o: ../Collision3D.h
 CMakeFiles/raytracer.dir/MainWindow.cpp.o: ../MainWindow.cpp
 CMakeFiles/raytracer.dir/MainWindow.cpp.o: ../MainWindow.h
 CMakeFiles/raytracer.dir/MainWindow.cpp.o: ../Matrix3D.h
@@ -76,6 +85,14 @@ CMakeFiles/raytracer.dir/Object3D.cpp.o: ../Object3D.cpp
 CMakeFiles/raytracer.dir/Object3D.cpp.o: ../Object3D.h
 CMakeFiles/raytracer.dir/Object3D.cpp.o: ../Vector3D.h
 
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Collision3D.h
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Matrix3D.h
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Object3D.h
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Ray.cpp
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Ray.h
+CMakeFiles/raytracer.dir/Ray.cpp.o: ../Vector3D.h
+
+CMakeFiles/raytracer.dir/Sphere.cpp.o: ../Collision3D.h
 CMakeFiles/raytracer.dir/Sphere.cpp.o: ../Matrix3D.h
 CMakeFiles/raytracer.dir/Sphere.cpp.o: ../Object3D.h
 CMakeFiles/raytracer.dir/Sphere.cpp.o: ../Sphere.cpp
@@ -86,6 +103,7 @@ CMakeFiles/raytracer.dir/Vector3D.cpp.o: ../Vector3D.cpp
 CMakeFiles/raytracer.dir/Vector3D.cpp.o: ../Vector3D.h
 
 CMakeFiles/raytracer.dir/main.cpp.o: ../Camera.h
+CMakeFiles/raytracer.dir/main.cpp.o: ../Collision3D.h
 CMakeFiles/raytracer.dir/main.cpp.o: ../Cube.h
 CMakeFiles/raytracer.dir/main.cpp.o: ../MainWindow.h
 CMakeFiles/raytracer.dir/main.cpp.o: ../Matrix3D.h

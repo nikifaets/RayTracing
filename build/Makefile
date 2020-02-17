@@ -150,6 +150,33 @@ Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
+Collision3D.o: Collision3D.cpp.o
+
+.PHONY : Collision3D.o
+
+# target to build an object file
+Collision3D.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.o
+.PHONY : Collision3D.cpp.o
+
+Collision3D.i: Collision3D.cpp.i
+
+.PHONY : Collision3D.i
+
+# target to preprocess a source file
+Collision3D.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.i
+.PHONY : Collision3D.cpp.i
+
+Collision3D.s: Collision3D.cpp.s
+
+.PHONY : Collision3D.s
+
+# target to generate assembly for a file
+Collision3D.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Collision3D.cpp.s
+.PHONY : Collision3D.cpp.s
+
 Cube.o: Cube.cpp.o
 
 .PHONY : Cube.o
@@ -258,6 +285,33 @@ Object3D.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Object3D.cpp.s
 .PHONY : Object3D.cpp.s
 
+Ray.o: Ray.cpp.o
+
+.PHONY : Ray.o
+
+# target to build an object file
+Ray.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.o
+.PHONY : Ray.cpp.o
+
+Ray.i: Ray.cpp.i
+
+.PHONY : Ray.i
+
+# target to preprocess a source file
+Ray.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.i
+.PHONY : Ray.cpp.i
+
+Ray.s: Ray.cpp.s
+
+.PHONY : Ray.s
+
+# target to generate assembly for a file
+Ray.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/Ray.cpp.s
+.PHONY : Ray.cpp.s
+
 Sphere.o: Sphere.cpp.o
 
 .PHONY : Sphere.o
@@ -351,6 +405,9 @@ help:
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
+	@echo "... Collision3D.o"
+	@echo "... Collision3D.i"
+	@echo "... Collision3D.s"
 	@echo "... Cube.o"
 	@echo "... Cube.i"
 	@echo "... Cube.s"
@@ -363,6 +420,9 @@ help:
 	@echo "... Object3D.o"
 	@echo "... Object3D.i"
 	@echo "... Object3D.s"
+	@echo "... Ray.o"
+	@echo "... Ray.i"
+	@echo "... Ray.s"
 	@echo "... Sphere.o"
 	@echo "... Sphere.i"
 	@echo "... Sphere.s"

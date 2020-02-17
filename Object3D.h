@@ -16,8 +16,10 @@ public:
 
 	Object3D();
 
-	virtual bool intersects_ray(Vector3D& from, Vector3D& to);
+	virtual Vector3D intersects_ray(Vector3D& from, Vector3D& to);
 	void set_type(std::string new_type);
+	void rotate_z(float angle);
+
 };
 
 #endif
