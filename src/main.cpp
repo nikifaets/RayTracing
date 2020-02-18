@@ -15,8 +15,8 @@ int main(int argc, char * argv[]){
     Sphere sphere1(Vector3D(150, 0, 0), 120);
     Sphere sphere2(Vector3D(-200, 0, 0), 100);
 
-    objects.push_back(&sphere1);
-    objects.push_back(&sphere2);
+    //objects.push_back(&sphere1);
+    //objects.push_back(&sphere2);
 	objects.push_back(&sphere);
 
     sphere.color = Vector3D(255,0,0);
@@ -37,20 +37,15 @@ int main(int argc, char * argv[]){
 
     window.render_display();
 
-    for(int i=0; i<200; i++){
+    /*for(int i=0; i<200; i++){
 
-    	//sphere.translation = sphere.translation + Vector3D(0,-9,0);
-
-        sphere.translation = sphere.translation + Vector3D(0,0,sin(i)).scale(100);
-        sphere1.translation = sphere1.translation + Vector3D(sin(i),cos(i),sin(i)).scale(150);
-        sphere2.translation = sphere2.translation + Vector3D(-sin(i),cos(i),0).scale(80);
     	main_camera.translation = main_camera.translation + Vector3D(6,0,0);
     	main_camera.rotate_z(0.1);
     	main_camera.draw();
     	window.render_display();
 
     	SDL_Delay(1);
-    }
+    }*/
 
     SDL_Event event;   
 
