@@ -1,6 +1,9 @@
 #include "Vector3D.h"
 #include <cmath>
-Vector3D::Vector3D(){}
+#include <iostream>
+using namespace std;
+
+Vector3D::Vector3D(): x(0), y(0), z(0){}
 Vector3D::Vector3D(float x_, float y_, float z_) : x(x_), y(y_), z(z_) {}
 
 void Vector3D::operator = (const Vector3D& arg){
@@ -66,3 +69,8 @@ float Vector3D::distance_to(const Vector3D& arg){
 	return sqrt(dist_x + dist_y + dist_z);
 }
 
+void Vector3D::print_vector(){
+
+	cout << "x " << x << " y " << y << " z " << z << endl;
+
+}

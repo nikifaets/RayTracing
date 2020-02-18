@@ -12,18 +12,6 @@ SDL.h
 Spatial/Camera/Camera.h
 /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
 
-/home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp
-Camera.h
-/home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
-../Collision/Collision3D.h
-/home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.h
-../Primitives/Ray.h
-/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.h
-cmath
-/home/nikifaets/code/RayTracing/src/Spatial/Camera/cmath
-iostream
--
-
 /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
 ../Object3D/Object3D.h
 /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
@@ -57,14 +45,6 @@ vector
 -
 Vector3D.h
 /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
-
-/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.h
-vector
--
-../Collision/Collision3D.h
-/home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.h
-../Object3D/Object3D.h
-/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
 
 /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
 cmath

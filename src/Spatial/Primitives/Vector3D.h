@@ -33,6 +33,8 @@ public:
 	float dot(const Vector3D& arg);
 
 	float distance_to(const Vector3D& arg);
+
+	void print_vector();
 };	
 
 

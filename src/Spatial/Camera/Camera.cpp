@@ -62,12 +62,13 @@ void Camera::draw(){
 			Vector3D offset_z(0,0, screen_h/2.);
 
 			Vector3D pixel(0,y,z);
-
+			pixel = pixel + offset_z + offset_y;
 			//rotation
 			pixel = basis.multiply_vector(pixel);
 			
 			//translation
-			pixel = pixel + offset_y + offset_z + translation; 
+			pixel = pixel + translation; 
+			
 			
 			Vector3D from = eye;
 			Vector3D to = pixel;

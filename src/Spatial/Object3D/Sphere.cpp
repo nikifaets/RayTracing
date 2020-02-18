@@ -48,6 +48,13 @@ Vector3D Sphere::intersects_ray(Vector3D& from, Vector3D& to){
 		return intersection_point;
 	}
 
+	if ( t<0){
+
+		;
+		//cout << "pixel " << from.x << " " << from.y << " " << from.z << endl;
+
+	}
+
 	return  null_vector;
 
 
