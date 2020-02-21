@@ -3,7 +3,8 @@
 
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/MainWindow.cpp
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/MainWindow.h
-CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Object3D/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Object3D/Light/Light.h
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Object3D/Object3D.h
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: ../src/Spatial/Primitives/Vector3D.h
@@ -53,13 +54,22 @@ CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: /usr/include/SDL2/SDL_video.h
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o: /usr/include/SDL2/close_code.h
 
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Camera/Camera.cpp
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Camera/Camera.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Collision/Collision3D.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Object3D.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Ray.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Vector3D.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/RayController/RayController.cpp
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/RayController/RayController.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Collision/Collision3D.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Object3D/Light/Light.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Object3D/Object3D.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Primitives/Ray.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/Spatial/Primitives/Vector3D.h
+
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Scene/Scene.cpp
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Scene/Scene.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Spatial/Object3D/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Spatial/Object3D/Light/Light.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Spatial/Object3D/Object3D.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Spatial/Primitives/Vector3D.h
 
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial/Collision/Collision3D.cpp
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial/Collision/Collision3D.h
@@ -67,11 +77,34 @@ CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial/Primitives/Vector3D.h
 
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/RayController/RayController.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Collision/Collision3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Camera/Camera.cpp
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Light/Light.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Object3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Ray.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Primitives/Vector3D.h
+
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Object3D/Cube.cpp
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Object3D/Cube.h
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Object3D/Object3D.h
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Primitives/Vector3D.h
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Object3D/Light/Light.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Object3D/Object3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Primitives/Vector3D.h
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Object3D/Light/Light.cpp
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Object3D/Light/Light.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Object3D/Object3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Primitives/Matrix3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Primitives/Vector3D.h
 
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o: ../src/Spatial/Object3D/Object3D.cpp
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o: ../src/Spatial/Object3D/Object3D.h
@@ -100,8 +133,11 @@ CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o: ../src/Spatial/P
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o: ../src/Spatial/Primitives/Vector3D.h
 
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/MainWindow.h
-CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Scene/Scene.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Collision/Collision3D.h
+CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Object3D/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.h
+CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Object3D/Light/Light.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Object3D/Object3D.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Object3D/Sphere.h
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/Spatial/Primitives/Matrix3D.h

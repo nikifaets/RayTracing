@@ -5,9 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nikifaets/code/RayTracing/src/MainWindow.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/MainWindow.cpp.o"
-  "/home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/RayController/RayController.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Scene/Scene.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o"
   "/home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o"
   "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o"
+  "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o"
   "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o"
   "/home/nikifaets/code/RayTracing/src/Spatial/Object3D/Sphere.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o"
   "/home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.cpp" "/home/nikifaets/code/RayTracing/build/CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o"

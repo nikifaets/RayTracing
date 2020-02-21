@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raytracer.dir/src/MainWindow.cpp.o"
-  "CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o"
+  "CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o"
+  "CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o"
   "CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o"
+  "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o"
   "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o"
+  "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o"
+  "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o"
   "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o"
   "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o"
   "CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o"

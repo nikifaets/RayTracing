@@ -70,22 +70,35 @@ CMakeFiles/raytracer.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/MainWindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/MainWindow.cpp -o CMakeFiles/raytracer.dir/src/MainWindow.cpp.s
 
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o: ../src/Spatial/Camera/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o: ../src/RayController/RayController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o -c /home/nikifaets/code/RayTracing/src/RayController/RayController.cpp
 
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp > CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.i
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/RayController/RayController.cpp > CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.i
 
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.s
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/RayController/RayController.cpp -o CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.s
+
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o: ../src/Scene/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o -c /home/nikifaets/code/RayTracing/src/Scene/Scene.cpp
+
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/Scene/Scene.cpp > CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.i
+
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Scene/Scene.cpp -o CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.s
 
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o: ../src/Spatial/Collision/Collision3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.i: cmake_force
@@ -96,9 +109,22 @@ CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.s
 
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o: ../src/Spatial/Object3D/Camera/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.cpp
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.cpp > CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.i
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.s
+
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o: ../src/Spatial/Object3D/Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.i: cmake_force
@@ -109,9 +135,35 @@ CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.s
 
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o: ../src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp > CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o: ../src/Spatial/Object3D/Light/Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.cpp
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.cpp > CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.i
+
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.cpp -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.s
+
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o: ../src/Spatial/Object3D/Object3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.i: cmake_force
@@ -124,7 +176,7 @@ CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o: ../src/Spatial/Object3D/Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Sphere.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.i: cmake_force
@@ -137,7 +189,7 @@ CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o: ../src/Spatial/Primitives/Matrix3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.i: cmake_force
@@ -150,7 +202,7 @@ CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o: ../src/Spatial/Primitives/Ray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.i: cmake_force
@@ -163,7 +215,7 @@ CMakeFiles/raytracer.dir/src/Spatial/Primitives/Ray.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o: ../src/Spatial/Primitives/Vector3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o -c /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.cpp
 
 CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.i: cmake_force
@@ -176,7 +228,7 @@ CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/main.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raytracer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raytracer.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/main.cpp.o -c /home/nikifaets/code/RayTracing/src/main.cpp
 
 CMakeFiles/raytracer.dir/src/main.cpp.i: cmake_force
@@ -190,9 +242,13 @@ CMakeFiles/raytracer.dir/src/main.cpp.s: cmake_force
 # Object files for target raytracer
 raytracer_OBJECTS = \
 "CMakeFiles/raytracer.dir/src/MainWindow.cpp.o" \
-"CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o" \
+"CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o" \
+"CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o" \
 "CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o" \
+"CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o" \
 "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o" \
+"CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o" \
+"CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o" \
 "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o" \
 "CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o" \
 "CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o" \
@@ -204,9 +260,13 @@ raytracer_OBJECTS = \
 raytracer_EXTERNAL_OBJECTS =
 
 raytracer: CMakeFiles/raytracer.dir/src/MainWindow.cpp.o
-raytracer: CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o
+raytracer: CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o
+raytracer: CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o
+raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o
+raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o
+raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Object3D.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/Spatial/Object3D/Sphere.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/Spatial/Primitives/Matrix3D.cpp.o
@@ -215,7 +275,7 @@ raytracer: CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o
 raytracer: CMakeFiles/raytracer.dir/src/main.cpp.o
 raytracer: CMakeFiles/raytracer.dir/build.make
 raytracer: CMakeFiles/raytracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable raytracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikifaets/code/RayTracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable raytracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raytracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

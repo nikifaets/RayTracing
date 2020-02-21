@@ -2,7 +2,7 @@
 #define MAIN_WINDOW_H
 
 #include <SDL.h>
-#include "Spatial/Camera/Camera.h"
+#include "Spatial/Object3D/Camera/Camera.h"
 
 class MainWindow{
 

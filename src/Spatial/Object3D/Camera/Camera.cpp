@@ -1,6 +1,7 @@
 #include "Camera.h"
-#include "../Collision/Collision3D.h"
-#include "../Primitives/Ray.h"
+#include "../../Collision/Collision3D.h"
+#include "../../Primitives/Ray.h"
+#include "../../../RayController/RayController.h"
 #include "cmath"
 #include <iostream>
 using namespace std;
@@ -40,9 +41,14 @@ void Camera::print_display(){
 	}
 }
 
-void Camera:: set_objects(vector <Object3D*> objects_){
+void Camera::set_objects(vector <Object3D*> objects_){
 
 	objects = objects_;
+}
+
+void Camera::set_lights(vector <Light*> lights_){
+
+	lights = lights_;
 }
 
 void Camera::draw(){
@@ -74,22 +80,12 @@ void Camera::draw(){
 			Vector3D to = pixel;
 
 			Ray ray(from, to);
-			ray.cast(objects);
 
-			Collision3D closest_collision = ray.get_closest_collision();
+			RayController ray_controller(ray, this->objects, this->lights);
+			Vector3D color = ray_controller.get_pixel_color();
 
-			if(closest_collision.collision_point == null_vector){
+			display[i][j] = {color.x, color.y, color.z};
 
-				display[i][j] = {255,255,255};
-			}
-
-			else{
-
-				Object3D* collider = closest_collision.collider;
-				Vector3D color = collider->color;
-
-				display[i][j] = {color.x, color.y, color.z};
-			}
 		}
 	}
 }

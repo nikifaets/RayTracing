@@ -150,32 +150,59 @@ src/MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/MainWindow.cpp.s
 .PHONY : src/MainWindow.cpp.s
 
-src/Spatial/Camera/Camera.o: src/Spatial/Camera/Camera.cpp.o
+src/RayController/RayController.o: src/RayController/RayController.cpp.o
 
-.PHONY : src/Spatial/Camera/Camera.o
+.PHONY : src/RayController/RayController.o
 
 # target to build an object file
-src/Spatial/Camera/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o
-.PHONY : src/Spatial/Camera/Camera.cpp.o
+src/RayController/RayController.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o
+.PHONY : src/RayController/RayController.cpp.o
 
-src/Spatial/Camera/Camera.i: src/Spatial/Camera/Camera.cpp.i
+src/RayController/RayController.i: src/RayController/RayController.cpp.i
 
-.PHONY : src/Spatial/Camera/Camera.i
+.PHONY : src/RayController/RayController.i
 
 # target to preprocess a source file
-src/Spatial/Camera/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.i
-.PHONY : src/Spatial/Camera/Camera.cpp.i
+src/RayController/RayController.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.i
+.PHONY : src/RayController/RayController.cpp.i
 
-src/Spatial/Camera/Camera.s: src/Spatial/Camera/Camera.cpp.s
+src/RayController/RayController.s: src/RayController/RayController.cpp.s
 
-.PHONY : src/Spatial/Camera/Camera.s
+.PHONY : src/RayController/RayController.s
 
 # target to generate assembly for a file
-src/Spatial/Camera/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.s
-.PHONY : src/Spatial/Camera/Camera.cpp.s
+src/RayController/RayController.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.s
+.PHONY : src/RayController/RayController.cpp.s
+
+src/Scene/Scene.o: src/Scene/Scene.cpp.o
+
+.PHONY : src/Scene/Scene.o
+
+# target to build an object file
+src/Scene/Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o
+.PHONY : src/Scene/Scene.cpp.o
+
+src/Scene/Scene.i: src/Scene/Scene.cpp.i
+
+.PHONY : src/Scene/Scene.i
+
+# target to preprocess a source file
+src/Scene/Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.i
+.PHONY : src/Scene/Scene.cpp.i
+
+src/Scene/Scene.s: src/Scene/Scene.cpp.s
+
+.PHONY : src/Scene/Scene.s
+
+# target to generate assembly for a file
+src/Scene/Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.s
+.PHONY : src/Scene/Scene.cpp.s
 
 src/Spatial/Collision/Collision3D.o: src/Spatial/Collision/Collision3D.cpp.o
 
@@ -204,6 +231,33 @@ src/Spatial/Collision/Collision3D.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.s
 .PHONY : src/Spatial/Collision/Collision3D.cpp.s
 
+src/Spatial/Object3D/Camera/Camera.o: src/Spatial/Object3D/Camera/Camera.cpp.o
+
+.PHONY : src/Spatial/Object3D/Camera/Camera.o
+
+# target to build an object file
+src/Spatial/Object3D/Camera/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o
+.PHONY : src/Spatial/Object3D/Camera/Camera.cpp.o
+
+src/Spatial/Object3D/Camera/Camera.i: src/Spatial/Object3D/Camera/Camera.cpp.i
+
+.PHONY : src/Spatial/Object3D/Camera/Camera.i
+
+# target to preprocess a source file
+src/Spatial/Object3D/Camera/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.i
+.PHONY : src/Spatial/Object3D/Camera/Camera.cpp.i
+
+src/Spatial/Object3D/Camera/Camera.s: src/Spatial/Object3D/Camera/Camera.cpp.s
+
+.PHONY : src/Spatial/Object3D/Camera/Camera.s
+
+# target to generate assembly for a file
+src/Spatial/Object3D/Camera/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.s
+.PHONY : src/Spatial/Object3D/Camera/Camera.cpp.s
+
 src/Spatial/Object3D/Cube.o: src/Spatial/Object3D/Cube.cpp.o
 
 .PHONY : src/Spatial/Object3D/Cube.o
@@ -230,6 +284,60 @@ src/Spatial/Object3D/Cube.s: src/Spatial/Object3D/Cube.cpp.s
 src/Spatial/Object3D/Cube.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.s
 .PHONY : src/Spatial/Object3D/Cube.cpp.s
+
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.o: src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o
+
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.o
+
+# target to build an object file
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o
+
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.i: src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i
+
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.i
+
+# target to preprocess a source file
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.i
+
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.s: src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s
+
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.s
+
+# target to generate assembly for a file
+src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s
+.PHONY : src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.s
+
+src/Spatial/Object3D/Light/Light.o: src/Spatial/Object3D/Light/Light.cpp.o
+
+.PHONY : src/Spatial/Object3D/Light/Light.o
+
+# target to build an object file
+src/Spatial/Object3D/Light/Light.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o
+.PHONY : src/Spatial/Object3D/Light/Light.cpp.o
+
+src/Spatial/Object3D/Light/Light.i: src/Spatial/Object3D/Light/Light.cpp.i
+
+.PHONY : src/Spatial/Object3D/Light/Light.i
+
+# target to preprocess a source file
+src/Spatial/Object3D/Light/Light.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.i
+.PHONY : src/Spatial/Object3D/Light/Light.cpp.i
+
+src/Spatial/Object3D/Light/Light.s: src/Spatial/Object3D/Light/Light.cpp.s
+
+.PHONY : src/Spatial/Object3D/Light/Light.s
+
+# target to generate assembly for a file
+src/Spatial/Object3D/Light/Light.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.s
+.PHONY : src/Spatial/Object3D/Light/Light.cpp.s
 
 src/Spatial/Object3D/Object3D.o: src/Spatial/Object3D/Object3D.cpp.o
 
@@ -405,15 +513,27 @@ help:
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"
-	@echo "... src/Spatial/Camera/Camera.o"
-	@echo "... src/Spatial/Camera/Camera.i"
-	@echo "... src/Spatial/Camera/Camera.s"
+	@echo "... src/RayController/RayController.o"
+	@echo "... src/RayController/RayController.i"
+	@echo "... src/RayController/RayController.s"
+	@echo "... src/Scene/Scene.o"
+	@echo "... src/Scene/Scene.i"
+	@echo "... src/Scene/Scene.s"
 	@echo "... src/Spatial/Collision/Collision3D.o"
 	@echo "... src/Spatial/Collision/Collision3D.i"
 	@echo "... src/Spatial/Collision/Collision3D.s"
+	@echo "... src/Spatial/Object3D/Camera/Camera.o"
+	@echo "... src/Spatial/Object3D/Camera/Camera.i"
+	@echo "... src/Spatial/Object3D/Camera/Camera.s"
 	@echo "... src/Spatial/Object3D/Cube.o"
 	@echo "... src/Spatial/Object3D/Cube.i"
 	@echo "... src/Spatial/Object3D/Cube.s"
+	@echo "... src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.o"
+	@echo "... src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.i"
+	@echo "... src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.s"
+	@echo "... src/Spatial/Object3D/Light/Light.o"
+	@echo "... src/Spatial/Object3D/Light/Light.i"
+	@echo "... src/Spatial/Object3D/Light/Light.s"
 	@echo "... src/Spatial/Object3D/Object3D.o"
 	@echo "... src/Spatial/Object3D/Object3D.i"
 	@echo "... src/Spatial/Object3D/Object3D.s"

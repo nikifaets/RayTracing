@@ -4,7 +4,8 @@
 CMakeFiles/raytracer.dir/src/MainWindow.cpp.o
  /home/nikifaets/code/RayTracing/src/MainWindow.cpp
  /home/nikifaets/code/RayTracing/src/MainWindow.h
- /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
@@ -53,13 +54,22 @@ CMakeFiles/raytracer.dir/src/MainWindow.cpp.o
  /usr/include/SDL2/SDL_video.h
  /usr/include/SDL2/begin_code.h
  /usr/include/SDL2/close_code.h
-CMakeFiles/raytracer.dir/src/Spatial/Camera/Camera.cpp.o
- /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.cpp
- /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
+CMakeFiles/raytracer.dir/src/RayController/RayController.cpp.o
+ /home/nikifaets/code/RayTracing/src/RayController/RayController.cpp
+ /home/nikifaets/code/RayTracing/src/RayController/RayController.h
  /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
+CMakeFiles/raytracer.dir/src/Scene/Scene.cpp.o
+ /home/nikifaets/code/RayTracing/src/Scene/Scene.cpp
+ /home/nikifaets/code/RayTracing/src/Scene/Scene.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
 CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o
  /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.cpp
@@ -67,9 +77,32 @@ CMakeFiles/raytracer.dir/src/Spatial/Collision/Collision3D.cpp.o
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Camera/Camera.cpp.o
+ /home/nikifaets/code/RayTracing/src/RayController/RayController.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.cpp
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Ray.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
 CMakeFiles/raytracer.dir/src/Spatial/Object3D/Cube.cpp.o
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.cpp
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Cube.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp.o
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.cpp
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
+CMakeFiles/raytracer.dir/src/Spatial/Object3D/Light/Light.cpp.o
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.cpp
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
@@ -101,8 +134,11 @@ CMakeFiles/raytracer.dir/src/Spatial/Primitives/Vector3D.cpp.o
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Vector3D.h
 CMakeFiles/raytracer.dir/src/main.cpp.o
  /home/nikifaets/code/RayTracing/src/MainWindow.h
- /home/nikifaets/code/RayTracing/src/Spatial/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Scene/Scene.h
  /home/nikifaets/code/RayTracing/src/Spatial/Collision/Collision3D.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Camera/Camera.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/DirectionalLight/DirectionalLight.h
+ /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Light/Light.h
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Object3D.h
  /home/nikifaets/code/RayTracing/src/Spatial/Object3D/Sphere.h
  /home/nikifaets/code/RayTracing/src/Spatial/Primitives/Matrix3D.h
