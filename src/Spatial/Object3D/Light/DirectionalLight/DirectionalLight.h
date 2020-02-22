@@ -7,6 +7,7 @@ class DirectionalLight: public Light{
 
 public:
 
+	DirectionalLight();
 	DirectionalLight(Vector3D direction_);
 	Vector3D direction;
 };

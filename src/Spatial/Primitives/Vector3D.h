@@ -17,6 +17,7 @@ public:
 	Vector3D();
 	Vector3D(float x_, float y_, float z_);
 
+	float get_length();
 
 	void operator = (const Vector3D& arg);
 
@@ -35,6 +36,10 @@ public:
 	float distance_to(const Vector3D& arg);
 
 	void print_vector();
+
+	void threshold(float min, float max);
+
+	Vector3D normalized();
 };	
 
 

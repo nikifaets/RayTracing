@@ -54,7 +54,7 @@ void Camera::set_lights(vector <Light*> lights_){
 void Camera::draw(){
 
 	Vector3D eye;
-	eye = eye - basis.x.scale(200);
+	eye = eye - basis.x.scale(300);
 	eye = eye + translation;
 
 	for(int i=0; i<display.size(); i++){
@@ -75,9 +75,16 @@ void Camera::draw(){
 			//translation
 			pixel = pixel + translation; 
 			
+			/*cout << "from eye ";
+			eye.print_vector();
+			cout << "to pixel " << endl;
+			pixel.print_vector();
+			cout << "direction ";
+			(pixel - eye).normalized().print_vector();*/
 			
-			Vector3D from = eye;
-			Vector3D to = pixel;
+			Vector3D from = pixel;
+			Vector3D dir = (pixel - eye).normalized();
+			Vector3D to = from + dir;
 
 			Ray ray(from, to);
 

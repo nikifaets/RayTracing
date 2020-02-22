@@ -26,36 +26,45 @@ Sphere::Sphere(Vector3D center_, float radius_) : radius(radius_){
 
 Vector3D Sphere::intersects_ray(Vector3D& from, Vector3D& to){
 
-	//ray: from + t*direction; t = - (from * direction - center*direction) / direction^2 
+	//equation: t^2 * (d*d) + t * 2(from*d - center*d) + center*center - from*center + from*from - raduis^2 = 0  
 
 	if( from == to) return null_vector;
 	if(translation == from) return null_vector;
 
-	Vector3D ray_direction = to - from;
+	Vector3D ray_direction = (to - from).normalized();
 
-	float numerator = from.dot(ray_direction) - translation.dot(ray_direction);
-	float denominator = ray_direction.dot(ray_direction);
+	float a = ray_direction.dot(ray_direction);
+	float b = 2 * (from.dot(ray_direction) - translation.dot(ray_direction));
+	float c = translation.dot(translation) + from.dot(from) - translation.dot(from) - radius*radius;
 
-	float t = -numerator / denominator;
+	//cout << "a " << a << " b " << b << " c " << c << endl;
+	float D = sqrt(b*b - 4*a*c);
 
-	Vector3D intersection_point = from + ray_direction.scale(t);
+	float t1 = (-b + D) / 2*a;
+	float t2 = (-b - D) / 2*a;
 
-	float dist = translation.distance_to(intersection_point);
+	if(t1 < 0 && t2 < 0 ) return null_vector;
 
+	if(abs(t1 - t2) < eps) {
 
-	if(dist < radius && t > 0){
-
+		Vector3D intersection_point = from + ray_direction.scale(t1);
+		//cout << "intersection t1 == t2" << endl;
+		//intersection_point.print_vector();
 		return intersection_point;
 	}
 
-	if ( t<0){
+	Vector3D intersection1 = from + ray_direction.scale(t1);
+	Vector3D intersection2 = from + ray_direction.scale(t2);
 
-		;
-		//cout << "pixel " << from.x << " " << from.y << " " << from.z << endl;
+	float dist1 = intersection1.distance_to(from);
+	float dist2 = intersection2.distance_to(from);
 
-	}
+	if(dist1 < dist2 && t1 > -eps) return intersection1;
 
-	return  null_vector;
+	else if(t2 > -eps) return intersection2;
+
+	return null_vector;
+	
 
 
 }

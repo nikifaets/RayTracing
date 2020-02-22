@@ -3,13 +3,13 @@
 
 #include "../Object3D.h"
 
-class Light : Object3D{
+class Light : public Object3D{
 
 public:
 
 	Light();
 
 	Vector3D color;
-	float intensity = 1;
+	float intensity = 3.14;
 };
 #endif

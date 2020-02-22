@@ -13,16 +13,17 @@ int main(int argc, char * argv[]){
 
     Scene scene;
 
-    Vector3D light_direction(1,0,0);
+    Vector3D light_direction(10,0,0);
     DirectionalLight light(light_direction);
 
-	Sphere sphere(Vector3D(300,0,0), 50);
-    Sphere sphere1(Vector3D(150, 0, 0), 120);
+	Sphere sphere(Vector3D(250,-100,0), 120);
+    Sphere sphere1(Vector3D(350, 100, 0), 100);
     Sphere sphere2(Vector3D(-200, 0, 0), 100);
 
     //objects.push_back(&sphere1);
     //objects.push_back(&sphere2);
     
+    scene.add_object(&sphere1);
     scene.add_object(&sphere);
     scene.add_light(&light);
 
@@ -46,15 +47,18 @@ int main(int argc, char * argv[]){
 
     window.render_display();
 
-   /* for(int i=0; i<200; i++){
+    for(int i=0; i<150; i++){
 
-        sphere.translation = sphere.translation + Vector3D(2,0,0);
-    	main_camera.translation = main_camera.translation + Vector3D(6,0,0);
+        //sphere.translation = sphere.translation + Vector3D(30,0,0);
+       // sphere1.translation = sphere1.translation + Vector3D(cos(i/10), -sin(i/10), sin(i/10)/3).scale(30);
+    	//main_camera.translation = main_camera.translation + Vector3D(10,0,0);
+        //main_camera.rotate_z(0.2);
+        light.direction  = light.direction + Vector3D(0,sin(i/10)*5,-cos(i/10)*5);
         scene.render();
     	window.render_display();
 
-    	SDL_Delay(1);
-    }*/
+    	SDL_Delay(20);
+    }
 
     SDL_Event event;   
 

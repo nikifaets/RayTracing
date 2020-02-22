@@ -6,6 +6,11 @@ using namespace std;
 Vector3D::Vector3D(): x(0), y(0), z(0){}
 Vector3D::Vector3D(float x_, float y_, float z_) : x(x_), y(y_), z(z_) {}
 
+float Vector3D::get_length(){
+
+	return sqrt(x*x + y*y + z*z);
+}
+
 void Vector3D::operator = (const Vector3D& arg){
 
 	this->x = arg.x;
@@ -73,4 +78,26 @@ void Vector3D::print_vector(){
 
 	cout << "x " << x << " y " << y << " z " << z << endl;
 
+}
+
+void Vector3D::threshold(float min, float max){
+
+	if(x < min) x = min;
+	if(x > max) x = max;
+
+	if(y < min) y = min;
+	if(y > max) y = max;
+
+	if(z < min) z = min;
+	if(z > min) z = min;
+}
+
+Vector3D Vector3D::normalized(){
+
+	float length = get_length();
+	float xn = x/length;
+	float yn = y/length;
+	float zn = z/length;
+
+	return Vector3D(xn, yn, zn);
 }

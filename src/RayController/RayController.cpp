@@ -1,5 +1,9 @@
 #include "RayController.h"
-#include "../Spatial/Collision/Collision3D.h"
+#include <iostream>
+#include <algorithm>
+
+#include <math.h>
+
 using namespace std;
 
 RayController::RayController(Ray ray_from_pixel, vector<Object3D*> objects_, vector<Light*> lights_) : starting_ray(ray_from_pixel), objects(objects_), lights(lights_){}
@@ -15,8 +19,42 @@ Vector3D RayController::get_pixel_color(){
 		return Vector3D(255,255,255);
 	}
 
+	//cout << "colliding point " << endl;
+	//collision.collision_point.print_vector();
 	Object3D* collider = collision.collider;
 	Vector3D color = collider->color;
 
+	float lambertian = cast_lambertian(collision);
+
+	//color.scale(lambertian).print_vector();
+	color = color.scale(lambertian);
+	//color.print_vector();
+	color.threshold(0,255);
+
 	return color;
+}
+
+float RayController::cast_lambertian(Collision3D collision){
+
+	DirectionalLight* light = (DirectionalLight*)lights[0];
+	Vector3D light_direction = light->direction.scale(-1);
+	
+	float light_intensity = light->intensity;
+
+	Vector3D collision_point = collision.collision_point;
+	Vector3D collider_center = collision.collider->translation;
+	Vector3D collision_normal = collision_point - collider_center;
+
+	float normal_length = collision_normal.get_length();
+	float light_direction_length = light_direction.get_length();
+
+	float cos_angle = max(float(0), light_direction.normalized().dot(collision_normal.normalized()));
+
+	
+
+	//if(cos_angle > 0.7)
+	//cout << "angle " << cos_angle << " " << "intensity " << light_intensity << endl;
+	//cout << "ans " << (light_intensity * cos_angle) / M_PI << endl;
+	return  (light_intensity * cos_angle) / M_PI;
+
 }
