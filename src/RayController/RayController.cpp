@@ -19,16 +19,13 @@ Vector3D RayController::get_pixel_color(){
 		return Vector3D(255,255,255);
 	}
 
-	//cout << "colliding point " << endl;
-	//collision.collision_point.print_vector();
+
 	Object3D* collider = collision.collider;
 	Vector3D color = collider->color;
 
 	float lambertian = cast_lambertian(collision);
 
-	//color.scale(lambertian).print_vector();
 	color = color.scale(lambertian);
-	//color.print_vector();
 	color.threshold(0,255);
 
 	return color;
@@ -51,10 +48,6 @@ float RayController::cast_lambertian(Collision3D collision){
 	float cos_angle = max(float(0), light_direction.normalized().dot(collision_normal.normalized()));
 
 	
-
-	//if(cos_angle > 0.7)
-	//cout << "angle " << cos_angle << " " << "intensity " << light_intensity << endl;
-	//cout << "ans " << (light_intensity * cos_angle) / M_PI << endl;
 	return  (light_intensity * cos_angle) / M_PI;
 
 }

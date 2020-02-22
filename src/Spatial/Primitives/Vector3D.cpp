@@ -89,7 +89,7 @@ void Vector3D::threshold(float min, float max){
 	if(y > max) y = max;
 
 	if(z < min) z = min;
-	if(z > min) z = min;
+	if(z > max) z = max;
 }
 
 Vector3D Vector3D::normalized(){

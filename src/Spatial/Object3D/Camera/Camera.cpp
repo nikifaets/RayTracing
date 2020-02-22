@@ -75,16 +75,9 @@ void Camera::draw(){
 			//translation
 			pixel = pixel + translation; 
 			
-			/*cout << "from eye ";
-			eye.print_vector();
-			cout << "to pixel " << endl;
-			pixel.print_vector();
-			cout << "direction ";
-			(pixel - eye).normalized().print_vector();*/
-			
 			Vector3D from = pixel;
 			Vector3D dir = (pixel - eye).normalized();
-			Vector3D to = from + dir;
+			Vector3D to = pixel + dir;
 
 			Ray ray(from, to);
 
