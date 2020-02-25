@@ -54,7 +54,7 @@ void Camera::set_lights(vector <Light*> lights_){
 void Camera::draw(){
 
 	Vector3D eye;
-	eye = eye - basis.x.scale(300);
+	eye = eye - basis.x.scale(500);
 	eye = eye + translation;
 
 	for(int i=0; i<display.size(); i++){

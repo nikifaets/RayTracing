@@ -3,3 +3,4 @@ A simple raytracer/renderer. The goal of the project is to implement some of the
 
 ![Projection demo](demo/projection.gif)
 ![Lambertian demo](demo/lambertian.gif)
+![Shadows demo](demo/shadow.gif)

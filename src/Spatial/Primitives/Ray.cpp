@@ -37,3 +37,16 @@ Collision3D Ray::get_closest_collision(){
 
 	return closest_collision;
 }
+
+bool Ray::collides(vector <Object3D*> objects){
+
+	for(int i=0; i<objects.size(); i++){
+
+		Vector3D intersection_point = objects[i]->intersects_ray(from, to);
+
+		if(intersection_point != null_vector) return true;
+	}
+
+	return false;
+
+}

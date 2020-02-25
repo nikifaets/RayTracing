@@ -24,8 +24,9 @@ Vector3D RayController::get_pixel_color(){
 	Vector3D color = collider->color;
 
 	float lambertian = cast_lambertian(collision);
+	float shadow = cast_shadow(collision);
 
-	color = color.scale(lambertian);
+	color = color.scale(lambertian*shadow);
 	color.threshold(0,255);
 
 	return color;
@@ -42,12 +43,28 @@ float RayController::cast_lambertian(Collision3D collision){
 	Vector3D collider_center = collision.collider->translation;
 	Vector3D collision_normal = collision_point - collider_center;
 
+	float albedo = collision.collider->albedo;
 	float normal_length = collision_normal.get_length();
 	float light_direction_length = light_direction.get_length();
 
 	float cos_angle = max(float(0), light_direction.normalized().dot(collision_normal.normalized()));
 
 	
-	return  (light_intensity * cos_angle) / M_PI;
+	return  (light_intensity * cos_angle * albedo);
 
+}
+
+float RayController::cast_shadow(Collision3D collision){
+
+	const float eps = 1e-3;
+	
+	Vector3D light_direction = ((DirectionalLight*)lights[0])->direction.scale(-1);
+	Vector3D collision_point = collision.collision_point + light_direction.scale(eps);
+
+	Ray shadow_ray(collision_point, collision_point + light_direction);
+	bool collides = shadow_ray.collides(objects);
+
+	if(collides) return 0.4;
+
+	return 1;
 }

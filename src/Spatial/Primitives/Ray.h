@@ -17,6 +17,7 @@ public:
 
 	void cast(std::vector <Object3D*> objects);
 	Collision3D get_closest_collision();
+	bool collides(std::vector<Object3D*> objects);
 };
 
 #endif

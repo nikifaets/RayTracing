@@ -10,6 +10,7 @@ public:
 	Light();
 
 	Vector3D color;
-	float intensity = 3.14;
+	float intensity = 1;
 };
+
 #endif

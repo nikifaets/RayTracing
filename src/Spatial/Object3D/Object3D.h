@@ -13,6 +13,7 @@ public:
 	Matrix3D basis;
 	std::string obj_type = "Undefined";
 	Vector3D color;
+	float albedo = 0.5;
 
 	Object3D();
 

@@ -15,6 +15,7 @@ public:
 	float z;
 
 	Vector3D();
+	Vector3D(float val);
 	Vector3D(float x_, float y_, float z_);
 
 	float get_length();

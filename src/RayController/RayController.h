@@ -13,6 +13,7 @@ class RayController{
 
 	Ray starting_ray;
 	float cast_lambertian(Collision3D collision);
+	float cast_shadow(Collision3D collision);
 	float cast_shadow();
 	std::vector<Object3D*> objects;
 	std::vector<Light*> lights;
