@@ -13,13 +13,13 @@ file(GLOB_RECURSE raytracer_SRC
 	"src/*.cpp"
 )
 
-add_executable(raytracer ${raytracer_SRC})
+add_executable(raytracer main.cpp)
 
 # For finding our SDL2 package!
 
 find_file(SDL2_INCLUDE_DIRS NAME SDL.h HINTS SDL2)
 find_library(SDL2_LIBRARIES NAME SDL2)
-
+#find_package(SDL2 REQUIRED)
 #INCLUDE(FindPkgConfig)
 
 # Searching SDL2 package.
