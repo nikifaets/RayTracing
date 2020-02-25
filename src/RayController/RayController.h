@@ -23,8 +23,5 @@ public:
 	RayController(Ray ray_from_pixel, std::vector <Object3D*> objects_, std::vector<Light*> lights_);
 	Vector3D get_pixel_color();
 
-
-
-
 };
 #endif
